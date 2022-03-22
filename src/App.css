@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+header {
+  position: fixed;
+}
+
 body, html {
   height: 100%;
   width: 100%;
@@ -14,5 +18,8 @@ body, html {
 .text {
   color: white;
   position: fixed;
-  bottom: 0;
+  bottom: 50%;
+  right: 0%;
+  font-size: xx-large;
 }
+

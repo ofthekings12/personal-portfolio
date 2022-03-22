@@ -7,12 +7,13 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
 
   return (
-    <div className='bg'>
+    <div>
       <ThemeProvider theme={original}>
          <div className='text'>
          <h1>Hi, I'm Mikko!</h1>
          </div>
-         <Navbar />
+         <Navbar/>
+         
       </ThemeProvider>
       
     </div>
