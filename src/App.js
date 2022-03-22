@@ -1,9 +1,20 @@
-import React from 'react';
+import React from "react";
+import "./App.css";
+import { ThemeProvider } from "styled-components";
+import original from "react95/dist/themes/original";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
+
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className='bg'>
+      <ThemeProvider theme={original}>
+         <div className='text'>
+         <h1>Hi, I'm Mikko!</h1>
+         </div>
+         <Navbar />
+      </ThemeProvider>
+      
     </div>
   );
 }
