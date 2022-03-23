@@ -6,7 +6,7 @@ import "./Navbar.css";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <AppBar style={{ top: '645px' }}>
+    <AppBar style={{ top: '92.5vh', bottom: '0vh' }}>
       <Toolbar style={{ justifyContent: "space-between" }}>
         <div style={{ position: "relative", display: "inline-block" }}>
           <Button
@@ -45,9 +45,17 @@ export default function Navbar() {
               </ListItem>
             </List>
           )}
-        <Divider/>
         </div>
-        Hello World
+        
+        <div style={{ display: 'flex'}}>
+          <Divider orientation='vertical' size='30px' />
+          <div style={{ alignItems: 'center', padding: '7px' }}>
+             Hello World
+          </div>
+         
+        </div>
+        
+        
       </Toolbar>
     </AppBar>
 

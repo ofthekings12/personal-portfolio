@@ -3,6 +3,7 @@ import "./App.css";
 import { ThemeProvider } from "styled-components";
 import original from "react95/dist/themes/original";
 import Navbar from "./components/Navbar/Navbar";
+// import AboutWindow from "./components/Window/AboutWindow";
 
 function App() {
 
@@ -11,6 +12,15 @@ function App() {
       <ThemeProvider theme={original}>
          <div className='text'>
          <h1>Hi, I'm Mikko!</h1>
+         </div>
+         <div className="about">
+         <img
+              src="https://www.pngkit.com/png/full/867-8677338_pixelated-pixelart-freetouse-doge-pixel-art-paint-icon.png"
+              alt="about logo"
+              style={{ height: "100px" }}
+            />
+            About Me
+
          </div>
          <div className='projects'>
          <img
@@ -38,6 +48,7 @@ function App() {
          </div>
 
          <Navbar/>
+         {/* <AboutWindow/> */}
          
       </ThemeProvider>
       
