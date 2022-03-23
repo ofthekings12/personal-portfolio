@@ -1,5 +1,7 @@
 .window {
-  margin: 90px 200px;
+  position: absolute;
+  top: 15vh;
+  left: 25vh;
   height: 500px;
 
 }

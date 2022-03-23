@@ -7,7 +7,6 @@ import Draggable from "react-draggable";
 export default function AboutWindow() {
   return (
     <Draggable>
-    <div>
       <Window resizable className='window'>
       <WindowHeader className='window-header'>
       <div>
@@ -40,7 +39,6 @@ export default function AboutWindow() {
         Put some useful informations here
       </Panel>
     </Window>
-    </div>
     </Draggable>
   )
 }

@@ -1,9 +1,10 @@
 * {
   margin: 0;
-  overflow: hidden;
+  
 }
 
 body, html {
+  overflow: hidden;
   cursor: url(https://www.clipartmax.com/png/full/248-2489841_renaissance-and-vaporwave-windows-95-mouse-cursor.png), crosshair;
   height: 100%;
   width: 100%;
