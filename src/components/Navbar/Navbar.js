@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AppBar, Toolbar, Button, List, ListItem } from "react95";
+import { AppBar, Toolbar, Button, List, ListItem, Divider } from "react95";
 import logoIMG from "../../logo/logoIMG.png";
 import "./Navbar.css";
 
@@ -30,26 +30,22 @@ export default function Navbar() {
               }}
               onClick={() => setOpen(false)}
             >
-              <ListItem>
+              <ListItem className="email">
                 <span role="img" aria-label="✉️">
                   ✉️
                 </span>
                 Email Me
               </ListItem>
-              <ListItem>
+              <Divider/>
+              <ListItem className="call">
                 <span role="img" aria-label="📞">
                   📞
                 </span>
                 Call Me
               </ListItem>
-              <ListItem>
-                <span role="img" aria-label="">
-                  🔗
-                </span>
-                LinkedIn
-              </ListItem>
             </List>
           )}
+        <Divider/>
         </div>
         Hello World
       </Toolbar>

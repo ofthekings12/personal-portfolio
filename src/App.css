@@ -2,11 +2,8 @@
   margin: 0;
 }
 
-header {
-  position: fixed;
-}
-
 body, html {
+  cursor: url(https://www.clipartmax.com/png/full/248-2489841_renaissance-and-vaporwave-windows-95-mouse-cursor.png), crosshair;
   height: 100%;
   width: 100%;
   background-image: url("https://cdn.pixabay.com/photo/2017/06/12/20/27/sun-2396716_1280.png");
@@ -18,12 +15,13 @@ body, html {
 .text {
   color: white;
   position: fixed;
-  bottom: 50%;
+  bottom: 70%;
   right: 0%;
-  font-size: xx-large;
+  font-size: xxx-large;
 }
 
 .github {
+  cursor: pointer;
   color: white;
   display: flex;
   flex-direction: column;
@@ -34,3 +32,27 @@ body, html {
   left: 1%;
 }
 
+.linkedin {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  bottom: 30%;
+  left: 1.5%;
+}
+
+
+.projects {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  bottom: 50%;
+  left: 1%;
+}

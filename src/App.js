@@ -12,6 +12,14 @@ function App() {
          <div className='text'>
          <h1>Hi, I'm Mikko!</h1>
          </div>
+         <div className='projects'>
+         <img
+              src="https://images.squarespace-cdn.com/content/v1/546184e0e4b0f587f5d0f240/1535980454680-RY68GIW5BVVQPG8G61AY/Folder.png?format=750w"
+              alt="projects logo"
+              style={{ height: "100px" }}
+            />
+            My Projects
+         </div>
          <div className="github">
          <img
               src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/d7e4e1e509c728d.png"
@@ -19,6 +27,14 @@ function App() {
               style={{ height: "100px" }}
             />
             Github
+         </div>
+         <div className='linkedin'>
+         <img
+              src=" https://cdn.icon-icons.com/icons2/2873/PNG/512/linkedin_pixel_logo_icon_181925.png"
+              alt="linkedin logo"
+              style={{ height: "90px" }}
+            />
+            LinkedIn
          </div>
 
          <Navbar/>

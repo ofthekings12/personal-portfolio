@@ -4,5 +4,13 @@ body {
   font-family: VT323, cursive;
 }
 
+.email {
+  cursor: pointer;
+}
+
+.call {
+  cursor: pointer;
+}
+
 
 
