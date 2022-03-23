@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AppBar, Toolbar, Button, List, ListItem, Divider } from "react95";
-import logoIMG from "../../logo/logoIMG.png";
+import logoIMG from "../../images/logoIMG.png";
 import "./Navbar.css";
 
 export default function Navbar() {

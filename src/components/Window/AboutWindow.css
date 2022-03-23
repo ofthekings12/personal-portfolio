@@ -17,12 +17,13 @@
 
 }
 
-/* .aboutmikko {
-  flex-wrap: wrap;
-} */
+.aboutMikko {
+  width: 600px;
+}
 
 .panel {
-  /* display: flex; */
+  display: flex;
   padding: 20px;
+  width: 755px;
   
 }

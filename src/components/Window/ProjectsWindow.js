@@ -34,9 +34,9 @@ export default function AboutWindow() {
           </WindowHeader>
           <WindowContent>
           <Tabs value={activeTab} onChange={handleChange}>
-          <Tab value={0}>Shoes</Tab>
-          <Tab value={1}>Accesories</Tab>
-          <Tab value={2}>Clothing</Tab>
+          <Tab value={0}>Up4Grabs</Tab>
+          <Tab value={1}>RESOURCR.</Tab>
+          <Tab value={2}>Covid Tracker</Tab>
         </Tabs>
         <TabBody style={{ height: 300 }}>
           {activeTab === 0 && (
