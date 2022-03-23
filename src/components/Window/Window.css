@@ -3,6 +3,7 @@
   top: 15vh;
   left: 25vh;
   height: 500px;
+  width: 800px;
 
 }
 
@@ -14,4 +15,14 @@
 .close-icon {
   margin: 3.5px 2px;
 
+}
+
+/* .aboutmikko {
+  flex-wrap: wrap;
+} */
+
+.panel {
+  display: flex;
+  padding: 20px;
+  
 }
