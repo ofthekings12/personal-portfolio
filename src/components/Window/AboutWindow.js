@@ -9,7 +9,7 @@ import {
   Avatar,
 
 } from "react95";
-import "./Window.css";
+import "./AboutWindow.css";
 import Draggable from "react-draggable";
 
 export default function AboutWindow() {

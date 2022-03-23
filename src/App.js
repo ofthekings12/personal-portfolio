@@ -4,9 +4,12 @@ import { ThemeProvider } from "styled-components";
 import original from "react95/dist/themes/original";
 import Navbar from "./components/Navbar/Navbar";
 import AboutWindow from "./components/Window/AboutWindow";
+import ProjectsWindow from "./components/Window/ProjectsWindow"
+import { Anchor } from "react95";
 
 function App() {
   const [openAboutWindow, setOpenAboutWindow] = useState(false);
+  const [openProjectsWindow, setOpenProjectsWindow] = useState(false);
 
   return (
     <div>
@@ -26,7 +29,11 @@ function App() {
           />
           About Me
         </div>
-        <div className="projects">
+        <div
+          className="projects"
+          onClick={() => setOpenProjectsWindow(!openProjectsWindow)}
+          active={openProjectsWindow}
+        >
           <img
             src="https://images.squarespace-cdn.com/content/v1/546184e0e4b0f587f5d0f240/1535980454680-RY68GIW5BVVQPG8G61AY/Folder.png?format=750w"
             alt="projects logo"
@@ -34,27 +41,33 @@ function App() {
           />
           My Projects
         </div>
-        <div className="github">
-          <img
-            src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/d7e4e1e509c728d.png"
-            alt="github logo"
-            style={{ height: "100px" }}
-          />
-          Github
-        </div>
         <div className="linkedin">
-          <img
-            src=" https://cdn.icon-icons.com/icons2/2873/PNG/512/linkedin_pixel_logo_icon_181925.png"
-            alt="linkedin logo"
-            style={{ height: "90px" }}
-          />
+          <Anchor
+            href="https://www.linkedin.com/in/mikkodelosreyes/"
+            target="_blank"
+          >
+            <img
+              src=" https://cdn.icon-icons.com/icons2/2873/PNG/512/linkedin_pixel_logo_icon_181925.png"
+              alt="linkedin logo"
+              style={{ height: "90px" }}
+            />
+          </Anchor>
           LinkedIn
+        </div>
+        <div className="github">
+          <Anchor href="https://github.com/ofthekings12" target="_blank">
+            <img
+              src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/d7e4e1e509c728d.png"
+              alt="github logo"
+              style={{ height: "100px" }}
+            />
+          </Anchor>
+          Github
         </div>
 
         <Navbar />
-        {openAboutWindow && (
-        <AboutWindow />
-        )}
+        {openAboutWindow && <AboutWindow />}
+        {openProjectsWindow && <ProjectsWindow/>}
       </ThemeProvider>
     </div>
   );

@@ -1,0 +1,19 @@
+.window {
+  position: absolute;
+  top: 15vh;
+  left: 25vh;
+  height: 500px;
+  width: 800px;
+
+}
+
+.window-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-icon {
+  margin: 3.5px 2px;
+
+}
+
