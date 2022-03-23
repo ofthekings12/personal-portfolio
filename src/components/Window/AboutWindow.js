@@ -1,14 +1,21 @@
 import React from 'react'
 import { Window, WindowHeader, Button, Toolbar, WindowContent, Panel } from 'react95'
+import './Window.css'
+import Draggable from "react-draggable";
+
 
 export default function AboutWindow() {
   return (
+    <Draggable>
     <div>
       <Window resizable className='window'>
       <WindowHeader className='window-header'>
-        <span>AboutMikko.exe</span>
-        <Button>
-          <span className='close-icon' /> X
+      <div>
+          AboutMikko.exe
+          </div>
+        <Button className='close-icon'>
+          <div>✕
+          </div>
         </Button>
       </WindowHeader>
       <Toolbar>
@@ -34,5 +41,6 @@ export default function AboutWindow() {
       </Panel>
     </Window>
     </div>
+    </Draggable>
   )
 }

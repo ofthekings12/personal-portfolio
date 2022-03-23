@@ -1,0 +1,15 @@
+.window {
+  margin: 90px 200px;
+  height: 500px;
+
+}
+
+.window-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-icon {
+  margin: 3.5px 2px;
+
+}
