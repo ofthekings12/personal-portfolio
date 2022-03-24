@@ -6,7 +6,6 @@ import {
   Toolbar,
   WindowContent,
   Panel,
-  Avatar,
 
 } from "react95";
 import "./AboutWindow.css";
@@ -18,11 +17,11 @@ export default function AboutWindow() {
   return (
     <Draggable>
     {/* {closeAboutWindow && ( */}
-        <Window resizable className="window">
-          <WindowHeader className="window-header">
+        <Window resizable className="about-window">
+          <WindowHeader className="about-window-header">
             <div>AboutMikko.exe</div>
             <Button
-              className="close-icon"
+              className="about-close-icon"
               // onClick={() => setCloseAboutWindow(closeAboutWindow)}
             >
               <div>✕</div>
@@ -41,7 +40,11 @@ export default function AboutWindow() {
           </Toolbar>
           <WindowContent>
           <Panel className="panel" variant="well" >
-            <Avatar noBorder size={200} src="https://media-exp1.licdn.com/dms/image/C5603AQEvo2V79HxuYg/profile-displayphoto-shrink_800_800/0/1516988791135?e=1653523200&v=beta&t=GH0_i2baraQXXaaKs4ir0Z3mE95QVwucortcKvPNSAM"/>
+          <img className="avatar"
+              src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/images/Avatar.png?raw=true"
+              alt="mug"
+            />
+            <h1 className="title" >Long time creator, first time developer.</h1>
             <div className="aboutMikko">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin, ante vel porttitor posuere, tellus nisi interdum ipsum, non bibendum ante risus ut purus. Curabitur vel posuere odio. Vivamus rutrum, nunc et ullamcorper sagittis, tellus ligula maximus quam, id dapibus sapien metus lobortis diam. Proin luctus, dolor in finibus feugiat, lacus enim gravida sem, quis aliquet tellus leo nec enim. Morbi varius bibendum augue quis venenatis. Curabitur ut elit augue. Pellentesque posuere enim a mattis interdum. Donec sodales convallis turpis, a vulputate elit. Suspendisse potenti.
             </div>

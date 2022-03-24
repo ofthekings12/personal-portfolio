@@ -13,7 +13,7 @@ import {
 import "./ProjectsWindow.css";
 import Draggable from "react-draggable";
 
-export default function AboutWindow() {
+export default function ProjectsWindow() {
   // const [closeAboutWindow, setCloseAboutWindow] = useState(true);
   const [tab, setTab] = useState({activeTab:0})
   const handleChange = (e, value) => setTab({ activeTab: value });
@@ -22,11 +22,11 @@ export default function AboutWindow() {
   return (
     <Draggable>
     {/* {closeAboutWindow && ( */}
-        <Window resizable className="window">
-          <WindowHeader className="window-header">
+        <Window resizable className="projects-window">
+          <WindowHeader className="projects-window-header">
             <div>MikkosProjects.exe</div>
             <Button
-              className="close-icon"
+              className="projects-close-icon"
               // onClick={() => setCloseAboutWindow(closeAboutWindow)}
             >
               <div>✕</div>

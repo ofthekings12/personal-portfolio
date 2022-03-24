@@ -1,29 +1,45 @@
-.window {
+.about-window {
   position: absolute;
-  top: 15vh;
-  left: 25vh;
+  top: 10vh;
+  left: 40vh;
   height: 500px;
   width: 800px;
 
 }
 
-.window-header {
+.about-window-header {
   display: flex;
   justify-content: space-between;
 }
 
-.close-icon {
+.about-close-icon {
   margin: 3.5px 2px;
 
 }
 
+.avatar {
+  float: left;
+  padding: 10px;
+  height: 200px;
+
+}
+
+.title {
+  color: white;
+  padding: 10px;
+  font-size: 10vh;
+}
+
 .aboutMikko {
-  width: 600px;
+  padding: 0 20px 20px 0;
+  float: right;
 }
 
 .panel {
-  display: flex;
+  overflow: auto;
+  display: inline-block;
   padding: 20px;
-  width: 755px;
+  width: 109.5vh;
+  height: 365px;
   
 }

@@ -1,4 +1,4 @@
-.window {
+.projects-window {
   position: absolute;
   top: 15vh;
   left: 25vh;
@@ -7,12 +7,12 @@
 
 }
 
-.window-header {
+.projects-window-header {
   display: flex;
   justify-content: space-between;
 }
 
-.close-icon {
+.projects-close-icon {
   margin: 3.5px 2px;
 
 }
