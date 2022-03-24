@@ -38,12 +38,15 @@ export default function ProjectsWindow() {
           <Tab value={1}>RESOURCR.</Tab>
           <Tab value={2}>Covid Tracker</Tab>
         </Tabs>
-        <TabBody style={{ height: 300 }}>
+        <TabBody style={{ height: 370 }}>
           {activeTab === 0 && (
-            <div>
-              <Fieldset label='Order:'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin, ante vel porttitor posuere, tellus nisi interdum ipsum, non bibendum ante risus ut purus. Curabitur vel posuere odio. Vivamus rutrum, nunc et ullamcorper sagittis, tellus ligula maximus quam, id dapibus sapien metus lobortis diam. Proin luctus, dolor in finibus feugiat, lacus enim gravida sem, quis aliquet tellus leo nec enim. Morbi varius bibendum augue quis venenatis. Curabitur ut elit augue. Pellentesque posuere enim a mattis interdum. Donec sodales convallis turpis, a vulputate elit. Suspendisse potenti.
-              </Fieldset>
+            <div className="first-tab">
+              {/* <Fieldset> */}
+              <img className="up4grabs-gif"
+              src="https://github.com/zMollaz/up4grabs/blob/master/docs/up4gif.gif?raw=true"
+              alt="up4grabs"
+            />
+              {/* </Fieldset> */}
             </div>
           )}
           {activeTab === 1 && (

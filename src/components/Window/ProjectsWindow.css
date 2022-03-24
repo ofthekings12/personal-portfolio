@@ -17,3 +17,15 @@
 
 }
 
+.first-tab {
+  display: flex;
+  justify-content: center;
+}
+
+.up4grabs-gif {
+  margin: 0;
+  height: 50vh;
+  width: 100vh;
+
+}
+
