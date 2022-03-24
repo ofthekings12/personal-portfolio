@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {
+  Anchor,
   Window,
   WindowHeader,
   Button,
@@ -7,7 +8,7 @@ import {
   Tabs,
   Tab,
   TabBody,
-  Fieldset
+  Tooltip
 
 } from "react95";
 import "./ProjectsWindow.css";
@@ -41,12 +42,15 @@ export default function ProjectsWindow() {
         <TabBody style={{ height: 370 }}>
           {activeTab === 0 && (
             <div className="first-tab">
-              {/* <Fieldset> */}
+              <Anchor href="https://github.com/ofthekings12/up4grabs" target="_blank">
+              <Tooltip text='Checkout this repository to learn more' enterDelay={100} leaveDelay={500}>
+                
               <img className="up4grabs-gif"
               src="https://github.com/zMollaz/up4grabs/blob/master/docs/up4gif.gif?raw=true"
               alt="up4grabs"
             />
-              {/* </Fieldset> */}
+              </Tooltip>
+              </Anchor>
             </div>
           )}
           {activeTab === 1 && (
