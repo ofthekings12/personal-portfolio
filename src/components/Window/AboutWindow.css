@@ -20,14 +20,15 @@
 .avatar {
   float: left;
   padding: 10px;
-  height: 200px;
+  height: 28vh;
 
 }
 
 .title {
-  color: white;
+  color: black;
+  margin-top: 5vh;
   padding: 10px;
-  font-size: 10vh;
+  font-size: 8vh;
 }
 
 .aboutMikko {

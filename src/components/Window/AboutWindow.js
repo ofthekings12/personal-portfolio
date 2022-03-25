@@ -13,6 +13,7 @@ import Draggable from "react-draggable";
 
 export default function AboutWindow() {
   // const [closeAboutWindow, setCloseAboutWindow] = useState(true);
+  
 
   return (
     <Draggable>
@@ -35,7 +36,7 @@ export default function AboutWindow() {
               Other Stuff
             </Button>
             <Button variant="menu" size="sm" disabled>
-              Save
+              Emotional Trauma
             </Button>
           </Toolbar>
           <WindowContent>

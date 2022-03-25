@@ -38,7 +38,7 @@ export default function ProjectsWindow() {
             <Tab value={1}>RESOURCR.</Tab>
             <Tab value={2}>Covid Tracker</Tab>
           </Tabs>
-          <TabBody style={{ height: 370 }}>
+          <TabBody className="tabBody">
             {activeTab === 0 && (
               <div className="tab">
                 <Anchor
@@ -72,8 +72,8 @@ export default function ProjectsWindow() {
                   >
                     <img
                       className="resourcr-gif"
-                      src="https://github.com/zMollaz/Resource-wall/blob/master/docs/RESOURCR.-%20GIF.gif"
-                      alt="up4grabs"
+                      src="https://i.imgur.com/kxkum9q.gif"
+                      alt="resourcr"
                     />
                   </Tooltip>
                 </Anchor>

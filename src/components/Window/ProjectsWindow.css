@@ -2,7 +2,7 @@
   position: absolute;
   top: 15vh;
   left: 25vh;
-  height: 500px;
+  height: 80vh;
   width: 800px;
 
 }
@@ -22,10 +22,32 @@
   justify-content: center;
 }
 
+.tabBody {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+}
+
 .up4grabs-gif {
+  margin: 0;
+  height: 55vh;
+  width: 100vh;
+  object-fit: cover;
+
+}
+
+.resourcr-gif {
   margin: 0;
   height: 50vh;
   width: 100vh;
+
+}
+
+.covid-gif {
+  margin: 0;
+  height: 55vh;
+  width: 100vh;
+  object-fit: cover;
 
 }
 
