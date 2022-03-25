@@ -6,7 +6,7 @@ import "./Navbar.css";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <AppBar style={{ top: '92.5vh', bottom: '0vh', zIndex:1 }}>
+    <AppBar style={{ top: '93vh', bottom: '0vh', zIndex:1 }}>
       <Toolbar style={{ justifyContent: "space-between" }}>
         <div style={{ position: "relative", display: "inline-block" }}>
           <Button
@@ -37,7 +37,7 @@ export default function Navbar() {
                 Email Me
               </ListItem>
               <Divider/>
-              <ListItem className="call">
+              <ListItem disabled className="call">
                 <span role="img" aria-label="📞">
                   📞
                 </span>

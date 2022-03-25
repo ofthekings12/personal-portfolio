@@ -2,8 +2,8 @@
   position: absolute;
   top: 15vh;
   left: 25vh;
-  height: 80vh;
-  width: 800px;
+  height: 76vh;
+  width: 115vh;
 
 }
 
@@ -25,7 +25,7 @@
 .tabBody {
   margin: 0;
   padding: 0;
-  height: 500px;
+  height: 200vh;
 }
 
 .up4grabs-gif {
@@ -38,8 +38,9 @@
 
 .resourcr-gif {
   margin: 0;
-  height: 50vh;
+  height: 55vh;
   width: 100vh;
+  object-fit: cover;
 
 }
 

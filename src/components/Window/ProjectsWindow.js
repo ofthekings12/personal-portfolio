@@ -22,7 +22,7 @@ export default function ProjectsWindow() {
   return (
     <Draggable>
       {/* {closeAboutWindow && ( */}
-      <Window resizable className="projects-window">
+      <Window className="projects-window">
         <WindowHeader className="projects-window-header">
           <div>MikkosProjects.exe</div>
           <Button

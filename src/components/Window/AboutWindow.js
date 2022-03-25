@@ -18,7 +18,7 @@ export default function AboutWindow() {
   return (
     <Draggable>
     {/* {closeAboutWindow && ( */}
-        <Window resizable className="about-window">
+        <Window className="about-window">
           <WindowHeader className="about-window-header">
             <div>AboutMikko.exe</div>
             <Button
