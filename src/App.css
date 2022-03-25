@@ -22,11 +22,17 @@ body, html {
   font-size: xxx-large;
 }
 
+.icon-label {
+  background-color: #ED67FE;
+  margin: 5px 15px 5px 15px;
+}
+
 .github {
   cursor: pointer;
   color: white;
   display: flex;
   flex-direction: column;
+  vertical-align: middle;
   justify-content: center;
   text-align: center;
   position: fixed;

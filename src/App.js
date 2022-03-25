@@ -4,7 +4,7 @@ import { ThemeProvider } from "styled-components";
 import original from "react95/dist/themes/original";
 import Navbar from "./components/Navbar/Navbar";
 import AboutWindow from "./components/Window/AboutWindow";
-import ProjectsWindow from "./components/Window/ProjectsWindow"
+import ProjectsWindow from "./components/Window/ProjectsWindow";
 import { Anchor } from "react95";
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
             alt="about logo"
             style={{ height: "100px" }}
           />
-          About Me
+          <div className="icon-label">About Me</div>
         </div>
         <div
           className="projects"
@@ -39,7 +39,7 @@ function App() {
             alt="projects logo"
             style={{ height: "100px" }}
           />
-          My Projects
+          <div className="icon-label">My Projects</div>
         </div>
         <div className="linkedin">
           <Anchor
@@ -52,7 +52,7 @@ function App() {
               style={{ height: "90px" }}
             />
           </Anchor>
-          LinkedIn
+          <div className="icon-label">LinkedIn</div>
         </div>
         <div className="github">
           <Anchor href="https://github.com/ofthekings12" target="_blank">
@@ -62,12 +62,12 @@ function App() {
               style={{ height: "100px" }}
             />
           </Anchor>
-          Github
+          <div className="icon-label">Github</div>
         </div>
 
         <Navbar />
         {openAboutWindow && <AboutWindow />}
-        {openProjectsWindow && <ProjectsWindow/>}
+        {openProjectsWindow && <ProjectsWindow />}
       </ThemeProvider>
     </div>
   );
