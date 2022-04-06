@@ -68,7 +68,7 @@ function App() {
         <div className="resume">
           <Anchor href="https://resume.io/r/VY2i76FD2" target="_blank">
             <img
-              src="https://ibb.co/0ZcPDVW"
+              src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/images/cvicon.png?raw=true"
               alt="resume logo"
               style={{ height: "100px" }}
             />
