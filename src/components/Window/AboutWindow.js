@@ -3,7 +3,6 @@ import {
   Window,
   WindowHeader,
   Button,
-  Anchor,
   WindowContent,
   Panel,
   Tab,
