@@ -65,6 +65,17 @@ function App() {
           <div className="icon-label">Github</div>
         </div>
 
+        <div className="resume">
+          <Anchor href="https://resume.io/r/VY2i76FD2" target="_blank">
+            <img
+              src="https://ibb.co/0ZcPDVW"
+              alt="resume logo"
+              style={{ height: "100px" }}
+            />
+          </Anchor>
+          <div className="icon-label">Updated Resume</div>
+        </div>
+
         <Navbar />
         {openAboutWindow && <AboutWindow />}
         {openProjectsWindow && <ProjectsWindow />}

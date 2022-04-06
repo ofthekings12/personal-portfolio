@@ -13,7 +13,6 @@ import Draggable from "react-draggable";
 
 export default function AboutWindow() {
   // const [closeAboutWindow, setCloseAboutWindow] = useState(true);
-  
 
   return (
     <Draggable>
