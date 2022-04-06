@@ -32,17 +32,7 @@ export default function AboutWindow() {
             <div>✕</div>
           </Button>
         </WindowHeader>
-        {/* <Toolbar>
-            <Button variant="menu" size="sm">
-              Career
-            </Button>
-            <Button variant="menu" size="sm">
-              Other Stuff
-            </Button>
-            <Button variant="menu" size="sm" disabled>
-              Emotional Trauma
-            </Button>
-          </Toolbar> */}
+
         <WindowContent>
           <Tabs value={activeTab} onChange={handleChange}>
             <Tab value={0}>Career</Tab>
@@ -79,20 +69,11 @@ export default function AboutWindow() {
             )}
             {activeTab === 1 && (
               <div className="tab">
-                <Anchor
-                  href="https://github.com/ofthekings12/RESOURCR."
-                  target="_blank"
-                >
-                </Anchor>
               </div>
             )}
             {activeTab === 2 && (
               <div className="tab">
-                <Anchor
-                  href="https://github.com/ofthekings12/covid-tracker"
-                  target="_blank"
-                >
-                </Anchor>
+
               </div>
             )}
           </TabBody>

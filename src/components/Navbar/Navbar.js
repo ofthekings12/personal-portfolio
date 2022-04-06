@@ -30,11 +30,13 @@ export default function Navbar() {
               }}
               onClick={() => setOpen(false)}
             >
-              <ListItem className="email">
+              <ListItem  className="email">
+                <a  href="mailto:mikko.delosreyes12@gmail.com">
                 <span role="img" aria-label="✉️">
                   ✉️
                 </span>
                 Email Me
+                </a>
               </ListItem>
               <Divider/>
               <ListItem disabled className="call">
