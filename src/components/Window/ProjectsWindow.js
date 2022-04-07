@@ -9,6 +9,7 @@ import {
   Tab,
   TabBody,
   Tooltip,
+  Fieldset,
 } from "react95";
 import "./ProjectsWindow.css";
 import Draggable from "react-draggable";
@@ -24,10 +25,7 @@ export default function ProjectsWindow({ handleClick }) {
       <Window className="projects-window">
         <WindowHeader className="projects-window-header">
           <div>MikkosProjects.exe</div>
-          <Button
-            className="projects-close-icon"
-            onClick={handleClick}
-          >
+          <Button className="projects-close-icon" onClick={handleClick}>
             <div>✕</div>
           </Button>
         </WindowHeader>
@@ -40,26 +38,29 @@ export default function ProjectsWindow({ handleClick }) {
           <TabBody className="tabBody">
             {activeTab === 0 && (
               <div className="tab">
-                <Anchor
-                  href="https://github.com/ofthekings12/up4grabs"
-                  target="_blank"
-                >
-                  <Tooltip
-                    text="Checkout this repository to learn more"
-                    enterDelay={100}
-                    leaveDelay={500}
+                <Fieldset>
+                  <Anchor
+                    href="https://github.com/ofthekings12/up4grabs"
+                    target="_blank"
                   >
-                    <img
-                      className="up4grabs-gif"
-                      src="https://github.com/zMollaz/up4grabs/blob/master/docs/up4gif.gif?raw=true"
-                      alt="up4grabs"
-                    />
-                  </Tooltip>
-                </Anchor>
+                    <Tooltip
+                      text="Checkout this repository to learn more"
+                      enterDelay={100}
+                      leaveDelay={500}
+                    >
+                      <img
+                        className="up4grabs-gif"
+                        src="https://github.com/zMollaz/up4grabs/blob/master/docs/up4gif.gif?raw=true"
+                        alt="up4grabs"
+                      />
+                    </Tooltip>
+                  </Anchor>
+                  </Fieldset>
               </div>
             )}
             {activeTab === 1 && (
               <div className="tab">
+                <Fieldset>
                 <Anchor
                   href="https://github.com/ofthekings12/RESOURCR."
                   target="_blank"
@@ -76,10 +77,12 @@ export default function ProjectsWindow({ handleClick }) {
                     />
                   </Tooltip>
                 </Anchor>
+                </Fieldset>
               </div>
             )}
             {activeTab === 2 && (
               <div className="tab">
+                <Fieldset>
                 <Anchor
                   href="https://github.com/ofthekings12/covid-tracker"
                   target="_blank"
@@ -96,6 +99,7 @@ export default function ProjectsWindow({ handleClick }) {
                     />
                   </Tooltip>
                 </Anchor>
+                </Fieldset>
               </div>
             )}
           </TabBody>
