@@ -12,7 +12,7 @@ import {
 import "./AboutWindow.css";
 import Draggable from "react-draggable";
 
-export default function AboutWindow() {
+export default function AboutWindow({ handleClick }) {
   // const [closeAboutWindow, setCloseAboutWindow] = useState(true);
   const [tab, setTab] = useState({ activeTab: 0 });
   const handleChange = (e, value) => setTab({ activeTab: value });
@@ -26,7 +26,7 @@ export default function AboutWindow() {
           <div>AboutMikko.exe</div>
           <Button
             className="about-close-icon"
-            // onClick={() => setCloseAboutWindow(closeAboutWindow)}
+            onClick={handleClick}
           >
             <div>✕</div>
           </Button>

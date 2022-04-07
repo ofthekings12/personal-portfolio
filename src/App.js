@@ -11,6 +11,10 @@ function App() {
   const [openAboutWindow, setOpenAboutWindow] = useState(false);
   const [openProjectsWindow, setOpenProjectsWindow] = useState(false);
 
+  const handleClickAbout = () => {
+    setOpenAboutWindow((prev) => !prev);
+  }
+
   return (
     <div>
       <ThemeProvider theme={original}>
@@ -19,7 +23,7 @@ function App() {
         </div>
         <div
           className="about"
-          onClick={() => setOpenAboutWindow(!openAboutWindow)}
+          onClick={handleClickAbout}
           active={openAboutWindow}
         >
           <img
@@ -77,7 +81,7 @@ function App() {
         </div>
 
         <Navbar />
-        {openAboutWindow && <AboutWindow />}
+        {openAboutWindow && <AboutWindow handleClick={handleClickAbout} />}
         {openProjectsWindow && <ProjectsWindow />}
       </ThemeProvider>
     </div>
