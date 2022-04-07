@@ -15,6 +15,10 @@ function App() {
     setOpenAboutWindow((prev) => !prev);
   }
 
+  const handleClickProjects = () => {
+    setOpenProjectsWindow((prev) => !prev);
+  }
+
   return (
     <div>
       <ThemeProvider theme={original}>
@@ -35,7 +39,7 @@ function App() {
         </div>
         <div
           className="projects"
-          onClick={() => setOpenProjectsWindow(!openProjectsWindow)}
+          onClick={handleClickProjects}
           active={openProjectsWindow}
         >
           <img
@@ -82,7 +86,7 @@ function App() {
 
         <Navbar />
         {openAboutWindow && <AboutWindow handleClick={handleClickAbout} />}
-        {openProjectsWindow && <ProjectsWindow />}
+        {openProjectsWindow && <ProjectsWindow handleClick={handleClickProjects} />}
       </ThemeProvider>
     </div>
   );

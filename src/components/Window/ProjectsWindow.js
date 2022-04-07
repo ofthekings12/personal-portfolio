@@ -13,8 +13,7 @@ import {
 import "./ProjectsWindow.css";
 import Draggable from "react-draggable";
 
-export default function ProjectsWindow() {
-  // const [closeAboutWindow, setCloseAboutWindow] = useState(true);
+export default function ProjectsWindow({ handleClick }) {
   const [tab, setTab] = useState({ activeTab: 0 });
   const handleChange = (e, value) => setTab({ activeTab: value });
   const { activeTab } = tab;
@@ -27,7 +26,7 @@ export default function ProjectsWindow() {
           <div>MikkosProjects.exe</div>
           <Button
             className="projects-close-icon"
-            // onClick={() => setCloseAboutWindow(closeAboutWindow)}
+            onClick={handleClick}
           >
             <div>✕</div>
           </Button>
