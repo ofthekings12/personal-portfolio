@@ -13,14 +13,12 @@ import "./AboutWindow.css";
 import Draggable from "react-draggable";
 
 export default function AboutWindow({ handleClick }) {
-  // const [closeAboutWindow, setCloseAboutWindow] = useState(true);
   const [tab, setTab] = useState({ activeTab: 0 });
   const handleChange = (e, value) => setTab({ activeTab: value });
   const { activeTab } = tab;
 
   return (
     <Draggable>
-      {/* {closeAboutWindow && ( */}
       <Window className="about-window">
         <WindowHeader className="about-window-header">
           <div>AboutMikko.exe</div>
@@ -125,7 +123,6 @@ export default function AboutWindow({ handleClick }) {
           </TabBody>
         </WindowContent>
       </Window>
-      {/* )} */}
     </Draggable>
   );
 }
