@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Window,
   WindowHeader,
@@ -8,6 +8,7 @@ import {
   Tab,
   Tabs,
   TabBody,
+  LoadingIndicator
 } from "react95";
 import "./AboutWindow.css";
 import Draggable from "react-draggable";
@@ -16,6 +17,14 @@ export default function AboutWindow({ handleClick }) {
   const [tab, setTab] = useState({ activeTab: 0 });
   const handleChange = (e, value) => setTab({ activeTab: value });
   const { activeTab } = tab;
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1500)
+  }, [])
 
   return (
     <Draggable>
@@ -42,6 +51,16 @@ export default function AboutWindow({ handleClick }) {
             {activeTab === 0 && (
               <div className="tab">
                 <Panel className="panel" variant="well">
+                  {
+                  loading ?
+                  <div className="loading">
+                  <p style={{ textAlign: 'center', marginBottom: '0.5rem' }}>Loading...</p>
+                  <LoadingIndicator loading={loading} />
+                  </div>
+
+                  :
+                  
+                  <>
                   <img
                     className="avatar"
                     src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/images/Avatar.png?raw=true"
@@ -93,6 +112,8 @@ export default function AboutWindow({ handleClick }) {
                       <br />
                     </p>
                   </div>
+                  </>
+                }
                 </Panel>
               </div>
             )}
