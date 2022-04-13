@@ -1,5 +1,5 @@
 ## Work in Progress
-Personal portfolio with UI inspired by Windows95.
+Personal portfolio with UI inspired by Vaporwave/Windows95.
 
 
 
