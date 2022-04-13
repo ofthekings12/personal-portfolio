@@ -2,7 +2,7 @@
   position: absolute;
   top: 10vh;
   left: 40vh;
-  height: 80vh;
+  height: 76vh;
   width: 115vh;
 
 }
@@ -31,20 +31,34 @@
   font-size: 8vh;
 }
 
+.tab {
+  display: flex;
+  justify-content: center;
+}
+
 .aboutMikko {
   padding: 0 20px 20px 0;
   float: right;
 }
 
+.tabBody {
+  margin: 0;
+  padding: 0;
+  height: 65vh;
+}
+
 .panel {
   overflow: auto;
   display: inline-block;
+  margin-top: 5px;
   padding: 20px;
-  width: 109.5vh;
-  height: 58vh;
+  width: 105vh;
+  height: 55vh;
   
 }
 
 .loading {
-margin-top: 20vh;
+  margin-top: 20vh;;
+  height: 35.5vh;
+  width: 100vh;
 }

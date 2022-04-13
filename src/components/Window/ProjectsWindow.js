@@ -47,8 +47,9 @@ export default function ProjectsWindow({ handleClick }) {
           <TabBody className="tabBody">
             {activeTab === 0 && (
               <div className="tab">
-                <Fieldset>
-                  {loading ? (
+                <Fieldset className="fieldset">
+                  {
+                  loading ? 
                     <div className="loading">
                       <p
                         style={{ textAlign: "center", marginBottom: "0.5rem" }}
@@ -57,7 +58,7 @@ export default function ProjectsWindow({ handleClick }) {
                       </p>
                       <LoadingIndicator loading={loading} />
                     </div>
-                  ) : (
+                   : 
                     <>
                       <Anchor
                         href="https://github.com/ofthekings12/up4grabs"
@@ -76,7 +77,7 @@ export default function ProjectsWindow({ handleClick }) {
                         </Tooltip>
                       </Anchor>
                     </>
-                  )}
+                  }
                 </Fieldset>
               </div>
             )}
@@ -105,6 +106,16 @@ export default function ProjectsWindow({ handleClick }) {
             {activeTab === 2 && (
               <div className="tab">
                 <Fieldset>
+                {
+                  loading ?
+                  <div className="loading">
+                  <p style={{ textAlign: 'center', marginBottom: '0.5rem' }}>Loading...</p>
+                  <LoadingIndicator loading={loading} />
+                  </div>
+
+                  :
+                  
+                  <>
                   <Anchor
                     href="https://github.com/ofthekings12/covid-tracker"
                     target="_blank"
@@ -121,6 +132,8 @@ export default function ProjectsWindow({ handleClick }) {
                       />
                     </Tooltip>
                   </Anchor>
+                  </>
+                }
                 </Fieldset>
               </div>
             )}

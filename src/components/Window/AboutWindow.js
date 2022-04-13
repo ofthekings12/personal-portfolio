@@ -54,7 +54,9 @@ export default function AboutWindow({ handleClick }) {
                   {
                   loading ?
                   <div className="loading">
-                  <p style={{ textAlign: 'center', marginBottom: '0.5rem' }}>Loading...</p>
+                  <p style={{ textAlign: 'center', marginBottom: '0.5rem' }}>
+                    Loading...
+                    </p>
                   <LoadingIndicator loading={loading} />
                   </div>
 
