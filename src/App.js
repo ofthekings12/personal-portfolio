@@ -55,7 +55,7 @@ function App() {
             target="_blank"
           >
             <img
-              src="https://cdn.icon-icons.com/icons2/2873/PNG/512/linkedin_pixel_logo_icon_181925.png"
+              src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/images/linkedin_pixel.png?raw=true"
               alt="linkedin logo"
               style={{ height: "90px" }}
             />
