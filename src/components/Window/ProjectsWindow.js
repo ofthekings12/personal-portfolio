@@ -47,7 +47,7 @@ export default function ProjectsWindow({ handleClick }) {
           <TabBody className="tabBody">
             {activeTab === 0 && (
               <div className="tab">
-                <Fieldset className="fieldset">
+                <Fieldset>
                   {
                   loading ? 
                     <div className="loading">
