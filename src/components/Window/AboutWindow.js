@@ -73,44 +73,19 @@ export default function AboutWindow({ handleClick }) {
                   </h1>
                   <div className="aboutMikko">
                     <p>
-                      Born a 90's kid, and growing up at the turn of the new
-                      milenia at the same time as the early stages of dial-up
-                      internet, I've seen the world around me change vastly over
-                      the past 20 years... I've always been active in creating,
-                      and struggled with finding a career that fulfilled that
-                      need.
+                      Born in the 90's, I grew up alongside the internet. I remember the days of screeching AOL dial up, and laughing at the back-then viral videos on websites like Newgrounds and Ebaumsworld. I kept myself entertained for hours on addictinggames.com, Neopets, and built static blogging sites with code templates on Piczo, Freewebs and MySpace. My friends and I would customize our websites with themed layouts, music players, custom cursors, and right-click alerts that would say something like "nice try xoxo" so people couldn't save our "pics".
                       <br />
                       <br />
-                      Growing up at the dawn of the internet, I was exposed to
-                      Neopets, Homestar Runner, and New Grounds and Ebaumsworld.
-                      My friends and I created our own personal websites on
-                      Freewebs, Piczo, and MySpace when it had HTML customizable
-                      layouts. It all changed when Facebook came around.
+                      Life happens fast, and it's easy to become invested and involved with other things to prepare you to make it in the real world. The internet has changed a lot since the leisurely days of '00-'07. 
                       <br />
                       <br />
-                      Fast forward to today, I feel fulfilled to have made the
-                      decision to pursue web development. What once was a way of
-                      having fun with friends has now become a nostalgic career
-                      passion. I'm determined to learn new ways of expressing my
-                      creativity through these means. Although I was creating
-                      websites at a young age, it still feels the same, but only
-                      with newer and stronger technologies. I love creating
-                      front-end components and adding my own style and flare to
-                      it. Developing secure, reliable, user experiences is what
-                      I feel i have a talent for.
+                      Fastforward to today - I've become a Full Stack Web Developer from one of Canada's leading private career collages for web development and data science. Equipped with modern, powerful tools for building full stack web applications, what was once a childhood past time has turned into a passion for implementing design and technical implementation.
                       <br />
                       <br />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Maecenas sollicitudin, ante vel porttitor posuere, tellus
-                      nisi interdum ipsum, non bibendum ante risus ut purus.
-                      Curabitur vel posuere odio. Vivamus rutrum, nunc et
-                      ullamcorper sagittis, tellus ligula maximus quam, id
-                      dapibus sapien metus lobortis diam. Proin luctus, dolor in
-                      finibus feugiat, lacus enim gravida sem, quis aliquet
-                      tellus leo nec enim. Morbi varius bibendum augue quis
-                      venenatis. Curabitur ut elit augue. Pellentesque posuere
-                      enim a mattis interdum. Donec sodales convallis turpis, a
-                      vulputate elit. Suspendisse potenti.
+                      During my experience in an intensive bootcamp I became accustomed to rapid learning and change. Working alongside others in a high-pressure environment has honed my time management skills, allowing for effective prioritization and organization.
+                      <br />
+                      <br />
+                      The foundation of my knowledge and skill base is the eagerness to seek out new technologies and stay up to date on industry trends and advancements. I am always excited to discover new, innovative ways of merging design with technical implementation to push the boundaries of my creative endeavours.
                       <br />
                     </p>
                   </div>

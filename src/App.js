@@ -24,6 +24,7 @@ function App() {
       <ThemeProvider theme={original}>
         <div className="text">
           <h1>Hi, I'm Mikko!</h1>
+          <h6>(This site is under construction!)</h6>
         </div>
         <div
           className="about"
