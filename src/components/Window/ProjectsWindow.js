@@ -43,13 +43,13 @@ export default function ProjectsWindow({ handleClick }) {
             <Tab value={0}>Up4Grabs</Tab>
             <Tab value={1}>RESOURCR.</Tab>
             <Tab value={2}>Covid Tracker</Tab>
+            <Tab value={3}>Let's Get Girly Pop</Tab>
           </Tabs>
           <TabBody className="tabBody">
             {activeTab === 0 && (
               <div className="tab">
                 <Fieldset>
-                  {
-                  loading ? 
+                  {loading ? (
                     <div className="loading">
                       <p
                         style={{ textAlign: "center", marginBottom: "0.5rem" }}
@@ -58,7 +58,7 @@ export default function ProjectsWindow({ handleClick }) {
                       </p>
                       <LoadingIndicator loading={loading} />
                     </div>
-                   : 
+                  ) : (
                     <>
                       <Anchor
                         href="https://github.com/ofthekings12/up4grabs"
@@ -77,7 +77,7 @@ export default function ProjectsWindow({ handleClick }) {
                         </Tooltip>
                       </Anchor>
                     </>
-                  }
+                  )}
                 </Fieldset>
               </div>
             )}
@@ -106,34 +106,70 @@ export default function ProjectsWindow({ handleClick }) {
             {activeTab === 2 && (
               <div className="tab">
                 <Fieldset>
-                {
-                  loading ?
-                  <div className="loading">
-                  <p style={{ textAlign: 'center', marginBottom: '0.5rem' }}>Loading...</p>
-                  <LoadingIndicator loading={loading} />
-                  </div>
-
-                  :
-                  
-                  <>
-                  <Anchor
-                    href="https://github.com/ofthekings12/covid-tracker"
-                    target="_blank"
-                  >
-                    <Tooltip
-                      text="Checkout this repository to learn more"
-                      enterDelay={100}
-                      leaveDelay={500}
-                    >
-                      <img
-                        className="covid-gif"
-                        src="https://github.com/ofthekings12/covid-tracker/raw/main/docs/ezgif-2-44f7212691.gif?raw=true"
-                        alt="up4grabs"
-                      />
-                    </Tooltip>
-                  </Anchor>
-                  </>
-                }
+                  {loading ? (
+                    <div className="loading">
+                      <p
+                        style={{ textAlign: "center", marginBottom: "0.5rem" }}
+                      >
+                        Loading...
+                      </p>
+                      <LoadingIndicator loading={loading} />
+                    </div>
+                  ) : (
+                    <>
+                      <Anchor
+                        href="https://github.com/ofthekings12/covid-tracker"
+                        target="_blank"
+                      >
+                        <Tooltip
+                          text="Checkout this repository to learn more"
+                          enterDelay={100}
+                          leaveDelay={500}
+                        >
+                          <img
+                            className="covid-gif"
+                            src="https://github.com/ofthekings12/covid-tracker/raw/main/docs/ezgif-2-44f7212691.gif?raw=true"
+                            alt="up4grabs"
+                          />
+                        </Tooltip>
+                      </Anchor>
+                    </>
+                  )}
+                </Fieldset>
+              </div>
+            )}
+            {activeTab === 3 && (
+              <div className="tab">
+                <Fieldset>
+                  {loading ? (
+                    <div className="loading">
+                      <p
+                        style={{ textAlign: "center", marginBottom: "0.5rem" }}
+                      >
+                        Loading...
+                      </p>
+                      <LoadingIndicator loading={loading} />
+                    </div>
+                  ) : (
+                    <>
+                      <Anchor
+                        href="https://github.com/ofthekings12/up4grabs"
+                        target="_blank"
+                      >
+                        <Tooltip
+                          text="Checkout this repository to learn more"
+                          enterDelay={100}
+                          leaveDelay={500}
+                        >
+                          <img
+                            className="up4grabs-gif"
+                            src="https://github.com/zMollaz/up4grabs/blob/master/docs/up4gif.gif?raw=true"
+                            alt="up4grabs"
+                          />
+                        </Tooltip>
+                      </Anchor>
+                    </>
+                  )}
                 </Fieldset>
               </div>
             )}
