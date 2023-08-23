@@ -1,10 +1,21 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AppBar, Toolbar, Button, List, ListItem, Divider } from "react95";
 import logoIMG from "../../images/logoIMG.png";
 import "./Navbar.css";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const [currentTime, setCurrentTime] = useState(new Date());
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000)
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [])
+
   return (
     <AppBar style={{ top: '93vh', bottom: '0vh', zIndex:1 }}>
       <Toolbar style={{ justifyContent: "space-between" }}>
@@ -52,7 +63,7 @@ export default function Navbar() {
         <div style={{ display: 'flex'}}>
           <Divider orientation='vertical' size='30px' />
           <div style={{ alignItems: 'center', padding: '7px' }}>
-             Hello World
+             {currentTime.toLocaleTimeString()}
           </div>
          
         </div>
