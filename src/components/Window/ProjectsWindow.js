@@ -40,12 +40,15 @@ export default function ProjectsWindow({ handleClick }) {
         </WindowHeader>
         <WindowContent>
           <Tabs value={activeTab} onChange={handleChange}>
-            <Tab value={0}>Up4Grabs</Tab>
-            <Tab value={1}>RESOURCR.</Tab>
-            <Tab value={2}>Covid Tracker</Tab>
-            <Tab value={3}>Let's Get Girly Pop</Tab>
+            <Tab value={0}>Let's Get Girly Pop</Tab>
+            <Tab value={1}>Interactive Comments Section</Tab>
+            <Tab value={2}>Product Card</Tab>
+            <Tab value={3}>Up4Grabs</Tab>
+            <Tab value={4}>RESOURCR.</Tab>
+            <Tab value={5}>Covid Tracker</Tab>
           </Tabs>
           <TabBody className="tabBody">
+            {/* GIRLYPOP */}
             {activeTab === 0 && (
               <div className="tab">
                 <Fieldset>
@@ -61,7 +64,49 @@ export default function ProjectsWindow({ handleClick }) {
                   ) : (
                     <>
                       <Anchor
-                        href="https://github.com/ofthekings12/up4grabs"
+                        href="https://letsgetgirlypop.netlify.app/"
+                        target="_blank"
+                      >
+                        <Tooltip
+                          text="Click here to see LIVE site, Click image to checkout repository"
+                          enterDelay={100}
+                          leaveDelay={500}
+                        >
+                          {" "}
+                          <Anchor
+                            href="https://github.com/ofthekings12/girly-pop"
+                            target="_blank"
+                          >
+                            <img
+                              className="product-card-img"
+                              src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/assets/girlypopLQ.gif?raw=true"
+                              alt="girlypop"
+                            />
+                          </Anchor>
+                        </Tooltip>
+                      </Anchor>
+                    </>
+                  )}
+                </Fieldset>
+              </div>
+            )}
+            {/* COMMENTS SECTION */}
+            {activeTab === 1 && (
+              <div className="tab">
+                <Fieldset>
+                  {loading ? (
+                    <div className="loading">
+                      <p
+                        style={{ textAlign: "center", marginBottom: "0.5rem" }}
+                      >
+                        Loading...
+                      </p>
+                      <LoadingIndicator loading={loading} />
+                    </div>
+                  ) : (
+                    <>
+                      <Anchor
+                        href="https://github.com/ofthekings12/interactive-comments-section"
                         target="_blank"
                       >
                         <Tooltip
@@ -70,9 +115,9 @@ export default function ProjectsWindow({ handleClick }) {
                           leaveDelay={500}
                         >
                           <img
-                            className="up4grabs-gif"
-                            src="https://github.com/zMollaz/up4grabs/blob/master/docs/up4gif.gif?raw=true"
-                            alt="up4grabs"
+                            className="comments-section-gif"
+                            src="https://github.com/ofthekings12/interactive-comments-section/raw/main/screenshots/desktopGIF.gif?raw=true"
+                            alt="comments-section"
                           />
                         </Tooltip>
                       </Anchor>
@@ -81,28 +126,7 @@ export default function ProjectsWindow({ handleClick }) {
                 </Fieldset>
               </div>
             )}
-            {activeTab === 1 && (
-              <div className="tab">
-                <Fieldset>
-                  <Anchor
-                    href="https://github.com/ofthekings12/RESOURCR."
-                    target="_blank"
-                  >
-                    <Tooltip
-                      text="Checkout this repository to learn more"
-                      enterDelay={100}
-                      leaveDelay={500}
-                    >
-                      <img
-                        className="resourcr-gif"
-                        src="https://i.imgur.com/kxkum9q.gif"
-                        alt="resourcr"
-                      />
-                    </Tooltip>
-                  </Anchor>
-                </Fieldset>
-              </div>
-            )}
+            {/* PRODUCT CARD */}
             {activeTab === 2 && (
               <div className="tab">
                 <Fieldset>
@@ -118,19 +142,25 @@ export default function ProjectsWindow({ handleClick }) {
                   ) : (
                     <>
                       <Anchor
-                        href="https://github.com/ofthekings12/covid-tracker"
+                        href="https://mikko-product-card.netlify.app/"
                         target="_blank"
                       >
                         <Tooltip
-                          text="Checkout this repository to learn more"
+                          text="Click here to see LIVE site, Click image to checkout repository"
                           enterDelay={100}
                           leaveDelay={500}
                         >
-                          <img
-                            className="covid-gif"
-                            src="https://github.com/ofthekings12/covid-tracker/raw/main/docs/ezgif-2-44f7212691.gif?raw=true"
-                            alt="up4grabs"
-                          />
+                          {" "}
+                          <Anchor
+                            href="https://github.com/ofthekings12/product-card"
+                            target="_blank"
+                          >
+                            <img
+                              className="product-card-img"
+                              src="https://github.com/ofthekings12/product-card/raw/main/my-solution-imgs/ProductCard-Desktop.png?raw=true"
+                              alt="up4grabs"
+                            />
+                          </Anchor>
                         </Tooltip>
                       </Anchor>
                     </>
@@ -138,6 +168,8 @@ export default function ProjectsWindow({ handleClick }) {
                 </Fieldset>
               </div>
             )}
+
+            {/* UP4GRABS */}
             {activeTab === 3 && (
               <div className="tab">
                 <Fieldset>
@@ -164,6 +196,65 @@ export default function ProjectsWindow({ handleClick }) {
                           <img
                             className="up4grabs-gif"
                             src="https://github.com/zMollaz/up4grabs/blob/master/docs/up4gif.gif?raw=true"
+                            alt="up4grabs"
+                          />
+                        </Tooltip>
+                      </Anchor>
+                    </>
+                  )}
+                </Fieldset>
+              </div>
+            )}
+
+            {activeTab === 4 && (
+              <div className="tab">
+                <Fieldset>
+                  <Anchor
+                    href="https://github.com/ofthekings12/RESOURCR."
+                    target="_blank"
+                  >
+                    <Tooltip
+                      text="Checkout this repository to learn more"
+                      enterDelay={100}
+                      leaveDelay={500}
+                    >
+                      <img
+                        className="resourcr-gif"
+                        src="https://i.imgur.com/kxkum9q.gif"
+                        alt="resourcr"
+                      />
+                    </Tooltip>
+                  </Anchor>
+                </Fieldset>
+              </div>
+            )}
+
+            {activeTab === 5 && (
+              <div className="tab">
+                <Fieldset>
+                  {loading ? (
+                    <div className="loading">
+                      <p
+                        style={{ textAlign: "center", marginBottom: "0.5rem" }}
+                      >
+                        Loading...
+                      </p>
+                      <LoadingIndicator loading={loading} />
+                    </div>
+                  ) : (
+                    <>
+                      <Anchor
+                        href="https://github.com/ofthekings12/covid-tracker"
+                        target="_blank"
+                      >
+                        <Tooltip
+                          text="Checkout this repository to learn more"
+                          enterDelay={100}
+                          leaveDelay={500}
+                        >
+                          <img
+                            className="covid-gif"
+                            src="https://github.com/ofthekings12/covid-tracker/raw/main/docs/ezgif-2-44f7212691.gif?raw=true"
                             alt="up4grabs"
                           />
                         </Tooltip>

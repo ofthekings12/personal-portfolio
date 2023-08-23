@@ -52,6 +52,27 @@
 
 }
 
+.girlypop-gif {
+  margin: 0;
+  height: 55vh;
+  width: 100vh;
+  object-fit: cover;
+}
+
+.comments-section-gif {
+  margin: 0;
+  height: 55vh;
+  width: 100vh;
+  object-fit: cover;
+}
+
+.product-card-img {
+  margin: 0;
+  height: 55vh;
+  width: 100vh;
+  object-fit: cover;
+}
+
 .fieldset {
   width: 105vh;
   height: 55vh;
