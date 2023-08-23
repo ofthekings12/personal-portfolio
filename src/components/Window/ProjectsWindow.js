@@ -40,12 +40,12 @@ export default function ProjectsWindow({ handleClick }) {
         </WindowHeader>
         <WindowContent>
           <Tabs value={activeTab} onChange={handleChange}>
-            <Tab value={0}>Let's Get Girly Pop</Tab>
-            <Tab value={1}>Interactive Comments Section</Tab>
-            <Tab value={2}>Product Card</Tab>
-            <Tab value={3}>Up4Grabs</Tab>
-            <Tab value={4}>RESOURCR.</Tab>
-            <Tab value={5}>Covid Tracker</Tab>
+            <Tab value={0} className="header-tabs">Let's Get Girly Pop</Tab>
+            <Tab value={1} className="header-tabs">Interactive Comments Section</Tab>
+            <Tab value={2} className="header-tabs">Product Card</Tab>
+            <Tab value={3} className="header-tabs">Up4Grabs</Tab>
+            <Tab value={4} className="header-tabs">RESOURCR.</Tab>
+            <Tab value={5} className="header-tabs">Covid Tracker</Tab>
           </Tabs>
           <TabBody className="tabBody">
             {/* GIRLYPOP */}
@@ -64,17 +64,17 @@ export default function ProjectsWindow({ handleClick }) {
                   ) : (
                     <>
                       <Anchor
-                        href="https://letsgetgirlypop.netlify.app/"
+                        href="https://github.com/ofthekings12/girly-pop" 
                         target="_blank"
                       >
                         <Tooltip
-                          text="Click here to see LIVE site, Click image to checkout repository"
+                          text="Click HERE to learn more on Github, click GIF to checkout LIVE demo"
                           enterDelay={100}
                           leaveDelay={500}
                         >
                           {" "}
                           <Anchor
-                            href="https://github.com/ofthekings12/girly-pop"
+                            href="https://letsgetgirlypop.netlify.app/"
                             target="_blank"
                           >
                             <img
@@ -110,7 +110,7 @@ export default function ProjectsWindow({ handleClick }) {
                         target="_blank"
                       >
                         <Tooltip
-                          text="Checkout this repository to learn more"
+                          text="Click HERE to learn more on Github"
                           enterDelay={100}
                           leaveDelay={500}
                         >
@@ -142,17 +142,17 @@ export default function ProjectsWindow({ handleClick }) {
                   ) : (
                     <>
                       <Anchor
-                        href="https://mikko-product-card.netlify.app/"
+                        href="https://github.com/ofthekings12/product-card"
                         target="_blank"
                       >
                         <Tooltip
-                          text="Click here to see LIVE site, Click image to checkout repository"
+                          text="Click HERE to learn more on Github, click image to checkout LIVE demo"
                           enterDelay={100}
                           leaveDelay={500}
                         >
                           {" "}
                           <Anchor
-                            href="https://github.com/ofthekings12/product-card"
+                            href="https://mikko-product-card.netlify.app/"
                             target="_blank"
                           >
                             <img
@@ -189,13 +189,13 @@ export default function ProjectsWindow({ handleClick }) {
                         target="_blank"
                       >
                         <Tooltip
-                          text="Checkout this repository to learn more"
+                          text="Click HERE to learn more on Github"
                           enterDelay={100}
                           leaveDelay={500}
                         >
                           <img
                             className="up4grabs-gif"
-                            src="https://github.com/zMollaz/up4grabs/blob/master/docs/up4gif.gif?raw=true"
+                            src="https://github.com/zMollaz/up4grabs/raw/master/docs/up4gif.gif?raw=true"
                             alt="up4grabs"
                           />
                         </Tooltip>
@@ -214,7 +214,7 @@ export default function ProjectsWindow({ handleClick }) {
                     target="_blank"
                   >
                     <Tooltip
-                      text="Checkout this repository to learn more"
+                      text="Click HERE to learn more on Github"
                       enterDelay={100}
                       leaveDelay={500}
                     >
@@ -248,7 +248,7 @@ export default function ProjectsWindow({ handleClick }) {
                         target="_blank"
                       >
                         <Tooltip
-                          text="Checkout this repository to learn more"
+                          text="Click HERE to learn more on Github"
                           enterDelay={100}
                           leaveDelay={500}
                         >
