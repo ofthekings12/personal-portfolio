@@ -20,7 +20,8 @@
 .avatar {
   float: left;
   padding: 10px;
-  height: 28vh;
+  height: 25vh;
+  border-radius: 50%;
 
 }
 
@@ -64,6 +65,27 @@
 }
 
 .tech-icons {
-  height: 50px;
-  width: 50px;
+  padding: 10px;
+  margin: 15px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-icons-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 33% 33% 33%;
+  height: 100%;
+  width: 100%;
 }

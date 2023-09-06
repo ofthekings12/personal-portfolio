@@ -61,7 +61,7 @@ export default function AboutWindow({ handleClick }) {
                     <>
                       <img
                         className="avatar"
-                        src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/images/Avatar.png?raw=true"
+                        src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/318124463_10160263876518116_6381159203866659244_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=DlG65trMpZAAX8btTI-&_nc_ht=scontent-ord5-1.xx&oh=00_AfBQxDomATjwbwz73CeQdTuYB1b500mH8FMuZR53SPwK9w&oe=64F21385"
                         alt="mug"
                       />
                       <h1 className="title">
@@ -121,18 +121,85 @@ export default function AboutWindow({ handleClick }) {
             {activeTab === 1 && (
               <div className="tab">
                 <Panel className="panel" variant="well">
-                  <div className="tech-icons">
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/javascript.png?raw=true"></img>
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/html.png?raw=true"></img>
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/css.png?raw=true"></img>
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/sass.png?raw=true"></img>
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/tailwind.png?raw=true"></img>
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/node.png?raw=true"></img>
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/sql.png?raw=true"></img>
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/postgresql.png?raw=true"></img>
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/prisma.png?raw=true"></img>
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/react.png?raw=true"></img>
-                    <img className="tech-icons" src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/nextjs.png?raw=true"></img>
+                  <div className="tech-icons-container">
+                    <div className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/javascript.png?raw=true"
+                      ></img>
+                      <h1>JavaScript</h1>
+                    </div>
+                    <div  className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/html.png?raw=true"
+                      ></img>
+                      <h1>HTML</h1>
+                    </div>
+                    <div  className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/css.png?raw=true"
+                      ></img>
+                      <h1>CSS</h1>
+                    </div>
+                    <div  className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/sass.png?raw=true"
+                      ></img>
+                      <h1>SCSS</h1>
+                    </div>
+                    <div  className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/tailwind.png?raw=true"
+                      ></img>
+                      <h1>Tailwind CSS</h1>
+                    </div>
+                    <div  className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/node.png?raw=true"
+                      ></img>
+                      <h1>Node JS</h1>
+                    </div>
+                    <div  className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/sql.png?raw=true"
+                      ></img>
+                      <h1>SQL</h1>
+                    </div>
+                    <div  className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/postgresql.png?raw=true"
+                      ></img>
+                      <h1>PostgreSQL</h1>
+                    </div>
+                    <div  className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/prisma.png?raw=true"
+                      ></img>
+                      <h1>Prisma</h1>
+                    </div>
+                    <div  className="tech">
+
+                    <img
+                      className="tech-icons"
+                      src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/react.png?raw=true"
+                    ></img>
+                    <h1>React</h1>
+                    </div>
+                    <div  className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/nextjs.png?raw=true"
+                    ></img>
+                    <h1>NextJS</h1>
+                    </div>
                   </div>
                 </Panel>
               </div>
