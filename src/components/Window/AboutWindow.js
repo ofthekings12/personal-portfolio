@@ -69,6 +69,67 @@ export default function AboutWindow({ handleClick }) {
                       </h1>
                       <div className="aboutMikko">
                         <p>
+                          Hello, I'm Mikko, and my journey into the tech world
+                          began as a digital native growing up alongside the
+                          evolution of the internet. Born in the '90s, I fondly
+                          recall the days of screeching AOL dial-up, and the
+                          early internet gems on websites like Newgrounds and
+                          Ebaumsworld. My online adventures often led me to
+                          platforms like addictinggames.com, Neopets, and the
+                          world of customizing websites on Piczo, Freewebs, and
+                          MySpace. Back then, my friends and I embraced the art
+                          of personalized websites with themed layouts, music
+                          players, custom cursors, and playful right-click
+                          alerts, a testament to our budding creativity in the
+                          digital realm.
+                          <br />
+                          <br />
+                          As life progressed, so did my interests and
+                          responsibilities, guiding me on a path to prepare for
+                          the real world. The internet underwent a rapid
+                          transformation during this time, and I found myself
+                          returning to it, not just as a leisurely pastime, but
+                          as a potential career.
+                          <br />
+                          <br />
+                          Fast forward to today - I've transitioned from those
+                          nostalgic online adventures to becoming a Full Stack
+                          Web Developer through rigorous training at Lighthouse
+                          Labs, one of Canada's leading private career colleges
+                          for web development and data science. Armed with
+                          modern, robust tools for building full-stack web
+                          applications, my childhood fascination with online
+                          customization has transformed into a passionate
+                          pursuit of merging design with technical
+                          implementation.
+                          <br />
+                          <br />
+                          During my intensive bootcamp experience, I learned to
+                          thrive in an environment of rapid learning and
+                          constant change. Collaborating with peers in
+                          high-pressure situations honed my time management
+                          skills, enabling effective prioritization and
+                          organization.
+                          <br />
+                          <br />
+                          My foundation in web development is fueled by my
+                          curiosity and an unwavering commitment to staying
+                          current with industry trends and technological
+                          advancements. I'm always eager to explore innovative
+                          ways of pushing the boundaries of creativity within
+                          the realms of design and technical implementation.
+                          <br />
+                          <br />
+                          Now, as I transition from my hospitality industry
+                          background into the tech sector, I'm excited about the
+                          opportunities that lie ahead. My journey, which began
+                          as a curious internet enthusiast, has evolved into a
+                          passionate pursuit of excellence in web development. I
+                          invite you to explore my personal portfolio and GitHub
+                          page to witness the outcomes of this exciting journey.
+                          Thank you for considering my story.
+                          <br />
+                          {/* <p>
                           Born in the 90's, I grew up alongside the internet. I
                           remember the days of screeching AOL dial up, and
                           laughing at the back-then viral videos on websites
@@ -110,7 +171,7 @@ export default function AboutWindow({ handleClick }) {
                           excited to discover new, innovative ways of merging
                           design with technical implementation to push the
                           boundaries of my creative endeavours.
-                          <br />
+                          <br /> */}
                         </p>
                       </div>
                     </>
@@ -129,76 +190,82 @@ export default function AboutWindow({ handleClick }) {
                       ></img>
                       <h1>JavaScript</h1>
                     </div>
-                    <div  className="tech">
+                    <div className="tech">
                       <img
                         className="tech-icons"
                         src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/html.png?raw=true"
                       ></img>
                       <h1>HTML</h1>
                     </div>
-                    <div  className="tech">
+                    <div className="tech">
                       <img
                         className="tech-icons"
                         src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/css.png?raw=true"
                       ></img>
                       <h1>CSS</h1>
                     </div>
-                    <div  className="tech">
+                    <div className="tech">
                       <img
                         className="tech-icons"
                         src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/sass.png?raw=true"
                       ></img>
                       <h1>SCSS</h1>
                     </div>
-                    <div  className="tech">
+                    <div className="tech">
                       <img
                         className="tech-icons"
                         src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/tailwind.png?raw=true"
                       ></img>
                       <h1>Tailwind CSS</h1>
                     </div>
-                    <div  className="tech">
+                    <div className="tech">
                       <img
                         className="tech-icons"
                         src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/node.png?raw=true"
                       ></img>
                       <h1>Node JS</h1>
                     </div>
-                    <div  className="tech">
+                    <div className="tech">
                       <img
                         className="tech-icons"
                         src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/sql.png?raw=true"
                       ></img>
                       <h1>SQL</h1>
                     </div>
-                    <div  className="tech">
+                    <div className="tech">
                       <img
                         className="tech-icons"
                         src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/postgresql.png?raw=true"
                       ></img>
                       <h1>PostgreSQL</h1>
                     </div>
-                    <div  className="tech">
+                    <div className="tech">
                       <img
                         className="tech-icons"
                         src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/prisma.png?raw=true"
                       ></img>
                       <h1>Prisma</h1>
                     </div>
-                    <div  className="tech">
-
-                    <img
-                      className="tech-icons"
-                      src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/react.png?raw=true"
-                    ></img>
-                    <h1>React</h1>
+                    <div className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/react.png?raw=true"
+                      ></img>
+                      <h1>React</h1>
                     </div>
-                    <div  className="tech">
-                    <img
-                      className="tech-icons"
-                      src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/nextjs.png?raw=true"
-                    ></img>
-                    <h1>NextJS</h1>
+                    <div className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/nextjs.png?raw=true"
+                      ></img>
+                      <h1>NextJS</h1>
+                    </div>
+                    <div className="tech">
+                      <img
+                        className="tech-icons"
+                        src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/figma.png?raw=true"
+                      ></img>
+                      <h1>Figma</h1>
                     </div>
                   </div>
                 </Panel>
