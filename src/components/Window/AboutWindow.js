@@ -70,15 +70,13 @@ export default function AboutWindow({ handleClick }) {
                       <div className="aboutMikko">
                         <p>
                           Hello, I'm Mikko, and my journey into the tech world
-                          began as a digital native growing up alongside the
-                          evolution of the internet. Born in the '90s, I fondly
-                          recall the days of screeching AOL dial-up, and the
-                          early internet gems on websites like Newgrounds and
+                          started as a digital native growing up alongside the
+                          evolution of the internet. Born in the '90s, I grew up in the days of screeching AOL dial-up, and on the
+                          early internet gems like Newgrounds and
                           Ebaumsworld. My online adventures often led me to
                           platforms like addictinggames.com, Neopets, and the
                           world of customizing websites on Piczo, Freewebs, and
-                          MySpace. Back then, my friends and I embraced the art
-                          of personalized websites with themed layouts, music
+                          MySpace. Back then, my friends and I created personalized websites with themed layouts, music
                           players, custom cursors, and playful right-click
                           alerts, a testament to our budding creativity in the
                           digital realm.
@@ -98,8 +96,8 @@ export default function AboutWindow({ handleClick }) {
                           Labs, one of Canada's leading private career colleges
                           for web development and data science. Armed with
                           modern, robust tools for building full-stack web
-                          applications, my childhood fascination with online
-                          customization has transformed into a passionate
+                          applications, my childhood past-time with online
+                          customization has transformed into a
                           pursuit of merging design with technical
                           implementation.
                           <br />
@@ -113,7 +111,7 @@ export default function AboutWindow({ handleClick }) {
                           <br />
                           <br />
                           My foundation in web development is fueled by my
-                          curiosity and an unwavering commitment to staying
+                          curiosity and commitment to staying
                           current with industry trends and technological
                           advancements. I'm always eager to explore innovative
                           ways of pushing the boundaries of creativity within
@@ -124,10 +122,10 @@ export default function AboutWindow({ handleClick }) {
                           background into the tech sector, I'm excited about the
                           opportunities that lie ahead. My journey, which began
                           as a curious internet enthusiast, has evolved into a
-                          passionate pursuit of excellence in web development. I
-                          invite you to explore my personal portfolio and GitHub
+                          passionate pursuit of excellence in development. I
+                          invite you to explore my resume and GitHub
                           page to witness the outcomes of this exciting journey.
-                          Thank you for considering my story.
+      
                           <br />
                           {/* <p>
                           Born in the 90's, I grew up alongside the internet. I
