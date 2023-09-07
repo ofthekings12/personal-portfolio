@@ -12,12 +12,19 @@ function App() {
   const [openProjectsWindow, setOpenProjectsWindow] = useState(false);
 
   const handleClickAbout = () => {
-    setOpenAboutWindow((prev) => !prev);
+    setOpenAboutWindow(true);
+    setOpenProjectsWindow(false);
   }
 
   const handleClickProjects = () => {
-    setOpenProjectsWindow((prev) => !prev);
+    setOpenProjectsWindow(true);
+    setOpenAboutWindow(false);
   }
+
+  const closeWindows = () => {
+    setOpenAboutWindow(false);
+    setOpenProjectsWindow(false);
+  };
 
   return (
     <div>
@@ -27,7 +34,7 @@ function App() {
           {/* <h6>(This site is under construction!)</h6> */}
         </div>
         <div
-          className="about"
+          className={`about ${openAboutWindow ? "active" : ""}`}
           onClick={handleClickAbout}
           active={openAboutWindow}
         >
@@ -39,7 +46,7 @@ function App() {
           <div className="icon-label">About Me</div>
         </div>
         <div
-          className="projects"
+          className={`projects ${openProjectsWindow ? "active" : ""}`}
           onClick={handleClickProjects}
           active={openProjectsWindow}
         >
@@ -86,8 +93,8 @@ function App() {
         </div>
 
         <Navbar />
-        {openAboutWindow && <AboutWindow handleClick={handleClickAbout} />}
-        {openProjectsWindow && <ProjectsWindow handleClick={handleClickProjects} />}
+        {openAboutWindow && <AboutWindow handleClick={closeWindows} />}
+        {openProjectsWindow && <ProjectsWindow handleClick={closeWindows} />}
       </ThemeProvider>
     </div>
   );

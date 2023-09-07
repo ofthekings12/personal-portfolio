@@ -4,8 +4,13 @@
   left: 25vh;
   height: 82vh;
   width: 115vh;
+  /* z-index: 1; */
 
 }
+
+/* projects-window.active {
+  z-index: 2;
+} */
 
 .projects-window-header {
   display: flex;
