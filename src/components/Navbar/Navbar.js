@@ -17,7 +17,7 @@ export default function Navbar() {
   }, [])
 
   return (
-    <AppBar style={{ top: '94vh', bottom: '0vh', zIndex:1 }}>
+    <AppBar className="app-bar" style={{ top: '95vh', bottom: '0vh', zIndex:1 }}>
       <Toolbar style={{ justifyContent: "space-between" }}>
         <div style={{ position: "relative", display: "inline-block" }}>
           <Button
@@ -42,19 +42,21 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
             >
               <ListItem  className="email">
-                <a  href="mailto:mikko.delosreyes12@gmail.com">
-                <span role="img" aria-label="✉️">
-                  ✉️
-                </span>
-                Email Me
+                {/* <span role="img" aria-label="✉️"> */}
+                <img className="email-icon" src="https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png" />
+                {/* </span> */}
+                <a href="mailto:mikko.delosreyes12@gmail.com">
+                <p>E-mail</p>
                 </a>
               </ListItem>
               <Divider/>
-              <ListItem disabled className="call">
-                <span role="img" aria-label="📞">
-                  📞
+              <ListItem className="discord">
+                <span role="img" aria-label="discord-contact">
+                  <img className="discord-icon" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-vector-download-0.png" />
                 </span>
-                Call Me
+              <a href="https://discordapp.com/users/904837189223972914">
+                <p>Discord</p>
+                </a>
               </ListItem>
             </List>
           )}
