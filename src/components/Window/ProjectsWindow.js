@@ -13,7 +13,7 @@ import {
   LoadingIndicator,
 } from "react95";
 import "./ProjectsWindow.css";
-import Draggable from "react-draggable";
+// import Draggable from "react-draggable";
 
 export default function ProjectsWindow({ handleClick }) {
   const [tab, setTab] = useState({ activeTab: 0 });
@@ -29,8 +29,8 @@ export default function ProjectsWindow({ handleClick }) {
   }, []);
 
   return (
-    <Draggable>
-      {/* {closeAboutWindow && ( */}
+    // <Draggable>
+
       <Window className="projects-window">
         <WindowHeader className="projects-window-header">
           <div>MikkosProjects.exe</div>
@@ -267,7 +267,6 @@ export default function ProjectsWindow({ handleClick }) {
           </TabBody>
         </WindowContent>
       </Window>
-      {/* )} */}
-    </Draggable>
+    // </Draggable>
   );
 }
