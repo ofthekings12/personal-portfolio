@@ -4,7 +4,6 @@ import {
   Window,
   WindowHeader,
   Button,
-  GroupBox,
   WindowContent,
   Tabs,
   Tab,
