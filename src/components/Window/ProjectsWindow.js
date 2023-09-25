@@ -74,7 +74,7 @@ export default function ProjectsWindow({ handleClick }) {
                   </div>
                 ) : (
                   <>
-                  <p className="redirect">Click <a href="https://github.com/ofthekings12/girly-pop" target="_blank">HERE</a> to learn more on Github, click GIF to checkout LIVE demo</p>
+                  <p className="redirect">Click <a href="https://github.com/ofthekings12/girly-pop" target="_blank" rel="noreferrer" >HERE</a> to learn more on Github, click GIF to checkout LIVE demo</p>
                     <Anchor
                       href="https://github.com/ofthekings12/girly-pop"
                       target="_blank"
