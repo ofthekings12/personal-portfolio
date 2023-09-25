@@ -110,7 +110,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: scroll;
 }
 
 .loading {
@@ -149,6 +148,7 @@
   .fieldset {
     height: 61vh;
     width: max-content;
+    overflow: scroll;
     
   }
   
