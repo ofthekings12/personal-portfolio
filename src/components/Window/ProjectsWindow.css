@@ -139,7 +139,7 @@
     margin-top: 0;
     padding-top: 0px;
     width: 100%;
-    object-fit: fit;
+    object-fit: contain;
   }
 
   .redirect {
