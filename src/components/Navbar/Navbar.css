@@ -4,7 +4,11 @@ body {
   font-family: VT323, cursive;
 }
 
-
+.app-bar {
+  z-index: 1;
+  top: 94vh !important;
+  bottom: 0vh;
+}
 
 .email {
   cursor: pointer;
@@ -38,11 +42,11 @@ body {
 }
 
 @media only screen and (max-width: 430px) { 
-  /* .app-bar {
-    top: 80vh !important;
-    bottom: 0vh !important;
-    z-index: 1 !important;
-  } */
+  .app-bar {
+    z-index: 1;
+    top: 90vh !important;
+    bottom: 0vh;
+  }
 }
 
 

@@ -16,20 +16,21 @@ export default function Navbar() {
     };
   }, [])
 
-  const isMobile = window.innerWidth <= 430; // You can adjust the breakpoint
+  // const isMobile = window.innerWidth <= 430; // You can adjust the breakpoint
 
-  const appBarStyle = {
-    zIndex: 1,
-    top: isMobile ? '94vh' : '84vh', // Adjust the values as needed
-    bottom: '0vh',
-  };
-
+  // const appBarStyle = {
+  //   zIndex: 1,
+  //   top: isMobile ? '94vh' : '84vh', // Adjust the values as needed
+  //   bottom: '0vh',
+  // };
 
 
 //top: '94vh'
 
   return (
-    <AppBar className="app-bar" style={appBarStyle}>
+    <AppBar className="app-bar" 
+    // style={appBarStyle}
+    >
       <Toolbar style={{ justifyContent: "space-between" }}>
         <div style={{ position: "relative", display: "inline-block" }}>
           <Button
