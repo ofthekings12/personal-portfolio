@@ -16,8 +16,17 @@ export default function Navbar() {
     };
   }, [])
 
+  const isMobile = window.innerWidth <= 430; // You can adjust the breakpoint
+
+  const appBarStyle = {
+    zIndex: 1,
+    top: isMobile ? '95vh' : '80vh', // Adjust the values as needed
+    bottom: '0vh',
+  };
+
+
   return (
-    <AppBar className="app-bar" style={{ top: '80vh', bottom: '0vh', zIndex:1 }}>
+    <AppBar className="app-bar" style={appBarStyle}>
       <Toolbar style={{ justifyContent: "space-between" }}>
         <div style={{ position: "relative", display: "inline-block" }}>
           <Button
