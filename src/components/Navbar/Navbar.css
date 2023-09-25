@@ -36,7 +36,7 @@ body {
   padding: 5px;
 }
 
-@media (width <= 430px) and (height <=1023px) { 
+@media only screen and (max-width: 430px) { 
 
 }
 

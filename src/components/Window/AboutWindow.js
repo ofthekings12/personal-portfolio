@@ -185,7 +185,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/javascript.png?raw=true"
                       alt="js icon"
                     ></img>
-                    <h1>JavaScript</h1>
+                    <h1 className='techname'>JavaScript</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -193,7 +193,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/html.png?raw=true"
                       alt="html icon"
                     ></img>
-                    <h1>HTML</h1>
+                    <h1 className='techname'>HTML</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -201,7 +201,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/css.png?raw=true"
                       alt="css icon"
                     ></img>
-                    <h1>CSS</h1>
+                    <h1 className='techname'>CSS</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -209,7 +209,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/sass.png?raw=true"
                       alt="sass icon"
                     ></img>
-                    <h1>SCSS</h1>
+                    <h1 className='techname'>SCSS</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -217,7 +217,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/tailwind.png?raw=true"
                       alt="tailwind icon"
                     ></img>
-                    <h1>Tailwind CSS</h1>
+                    <h1 className='techname'>Tailwind CSS</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -225,7 +225,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/node.png?raw=true"
                       alt="nodejs icon"
                     ></img>
-                    <h1>Node JS</h1>
+                    <h1 className='techname'>Node JS</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -233,7 +233,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/sql.png?raw=true"
                       alt="sql icon"
                     ></img>
-                    <h1>SQL</h1>
+                    <h1 className='techname'>SQL</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -241,7 +241,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/postgresql.png?raw=true"
                       alt="postgresql icon"
                     ></img>
-                    <h1>PostgreSQL</h1>
+                    <h1 className='techname'>PostgreSQL</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -249,7 +249,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/prisma.png?raw=true"
                       alt="prisma icon"
                     ></img>
-                    <h1>Prisma</h1>
+                    <h1 className='techname'>Prisma</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -257,7 +257,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/react.png?raw=true"
                       alt="react icon"
                     ></img>
-                    <h1>React</h1>
+                    <h1 className='techname'>React</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -265,7 +265,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/nextjs.png?raw=true"
                       alt="nextjs icon"
                     ></img>
-                    <h1>NextJS</h1>
+                    <h1 className='techname'>NextJS</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -273,7 +273,7 @@ export default function AboutWindow({ handleClick }) {
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/figma.png?raw=true"
                       alt="figma icon"
                     ></img>
-                    <h1>Figma</h1>
+                    <h1 className='techname'>Figma</h1>
                   </div>
                 </div>
               </Panel>
