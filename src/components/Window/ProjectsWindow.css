@@ -146,7 +146,6 @@
   }
   
   .fieldset {
-    margin: 10px;
     height: 61vh;
     width: max-content;
     overflow: scroll;
@@ -172,6 +171,7 @@
   }
 
   .redirect {
+    margin-top: 10px;
     background-color: #fefbcc;    ;
     border-style: dotted;
     margin-bottom: 1rem;
