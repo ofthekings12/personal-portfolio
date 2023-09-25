@@ -61,7 +61,7 @@ export default function AboutWindow({ handleClick }) {
                       <img
                         className="avatar"
                         src="https://i.ibb.co/bJT4kT5/mug.jpg"
-                        alt="mug"
+                        alt="avatar mug"
                       />
                       <h1 className="title">
                         Long time creator, first time developer.
@@ -183,6 +183,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/javascript.png?raw=true"
+                      alt="js icon"
                     ></img>
                     <h1>JavaScript</h1>
                   </div>
@@ -190,6 +191,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/html.png?raw=true"
+                      alt="html icon"
                     ></img>
                     <h1>HTML</h1>
                   </div>
@@ -197,6 +199,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/css.png?raw=true"
+                      alt="css icon"
                     ></img>
                     <h1>CSS</h1>
                   </div>
@@ -204,6 +207,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/sass.png?raw=true"
+                      alt="sass icon"
                     ></img>
                     <h1>SCSS</h1>
                   </div>
@@ -211,6 +215,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/tailwind.png?raw=true"
+                      alt="tailwind icon"
                     ></img>
                     <h1>Tailwind CSS</h1>
                   </div>
@@ -218,6 +223,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/node.png?raw=true"
+                      alt="nodejs icon"
                     ></img>
                     <h1>Node JS</h1>
                   </div>
@@ -225,6 +231,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/sql.png?raw=true"
+                      alt="sql icon"
                     ></img>
                     <h1>SQL</h1>
                   </div>
@@ -232,6 +239,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/postgresql.png?raw=true"
+                      alt="postgresql icon"
                     ></img>
                     <h1>PostgreSQL</h1>
                   </div>
@@ -239,6 +247,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/prisma.png?raw=true"
+                      alt="prisma icon"
                     ></img>
                     <h1>Prisma</h1>
                   </div>
@@ -246,6 +255,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/react.png?raw=true"
+                      alt="react icon"
                     ></img>
                     <h1>React</h1>
                   </div>
@@ -253,6 +263,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/nextjs.png?raw=true"
+                      alt="nextjs icon"
                     ></img>
                     <h1>NextJS</h1>
                   </div>
@@ -260,6 +271,7 @@ export default function AboutWindow({ handleClick }) {
                     <img
                       className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/figma.png?raw=true"
+                      alt="figma icon"
                     ></img>
                     <h1>Figma</h1>
                   </div>

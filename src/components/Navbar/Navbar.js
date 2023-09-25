@@ -42,10 +42,8 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
             >
               <ListItem  className="email">
-                {/* <span role="img" aria-label="✉️"> */}
                 <img className="email-icon" src="https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png" 
                 alt="email icon"/>
-                {/* </span> */}
                 <a href="mailto:mikko.delosreyes12@gmail.com">
                 <p>E-mail</p>
                 </a>
