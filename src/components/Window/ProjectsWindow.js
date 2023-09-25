@@ -175,7 +175,7 @@ export default function ProjectsWindow({ handleClick }) {
                       >
                         HERE
                       </a>{" "}
-                      to learn more on Github, click GIF to checkout LIVE demo
+                      to learn more on Github, click image to checkout LIVE demo
                     </p>
                     <Anchor
                       href="https://github.com/ofthekings12/product-card"
