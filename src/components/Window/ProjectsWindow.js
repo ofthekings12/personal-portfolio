@@ -45,7 +45,7 @@ export default function ProjectsWindow({ handleClick }) {
             <p className="window-tab">Let's Get Girly Pop</p>
           </Tab>
           <Tab value={1}>
-            <p className="window-tab">Interactive Comments Section</p>
+            <p className="window-tab">Comments Section</p>
           </Tab>
           <Tab value={2}>
             <p className="window-tab">Product Card</p>
@@ -74,6 +74,7 @@ export default function ProjectsWindow({ handleClick }) {
                   </div>
                 ) : (
                   <>
+                  <p className="redirect">Click <a href="https://github.com/ofthekings12/girly-pop" target="_blank">HERE</a> to learn more on Github, click GIF to checkout LIVE demo</p>
                     <Anchor
                       href="https://github.com/ofthekings12/girly-pop"
                       target="_blank"
