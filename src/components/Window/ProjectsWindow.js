@@ -91,7 +91,7 @@ export default function ProjectsWindow({ handleClick }) {
                           <img
                             className="girlypop-gif"
                             src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/assets/girlypopLQ.gif?raw=true"
-                            alt="girlypop"
+                            alt="girlypop demo"
                           />
                         </Anchor>
                       </Tooltip>
@@ -126,7 +126,7 @@ export default function ProjectsWindow({ handleClick }) {
                         <img
                           className="comments-section-gif"
                           src="https://github.com/ofthekings12/interactive-comments-section/raw/main/screenshots/desktopGIF.gif?raw=true"
-                          alt="comments-section"
+                          alt="comments section demo"
                         />
                       </Tooltip>
                     </Anchor>
@@ -165,7 +165,7 @@ export default function ProjectsWindow({ handleClick }) {
                           <img
                             className="product-card-img"
                             src="https://github.com/ofthekings12/product-card/raw/main/my-solution-imgs/ProductCard-Desktop.png?raw=true"
-                            alt="up4grabs"
+                            alt="product card demo"
                           />
                         </Anchor>
                       </Tooltip>
@@ -201,7 +201,7 @@ export default function ProjectsWindow({ handleClick }) {
                         <img
                           className="up4grabs-gif"
                           src="https://github.com/zMollaz/up4grabs/raw/master/docs/up4gif.gif?raw=true"
-                          alt="up4grabs"
+                          alt="up4grabs demo"
                         />
                       </Tooltip>
                     </Anchor>
@@ -226,7 +226,7 @@ export default function ProjectsWindow({ handleClick }) {
                     <img
                       className="resourcr-gif"
                       src="https://i.imgur.com/kxkum9q.gif"
-                      alt="resourcr"
+                      alt="resourcr demo"
                     />
                   </Tooltip>
                 </Anchor>
@@ -258,7 +258,7 @@ export default function ProjectsWindow({ handleClick }) {
                         <img
                           className="covid-gif"
                           src="https://github.com/ofthekings12/covid-tracker/raw/main/docs/ezgif-2-44f7212691.gif?raw=true"
-                          alt="up4grabs"
+                          alt="covid tracker demo"
                         />
                       </Tooltip>
                     </Anchor>
