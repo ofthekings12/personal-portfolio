@@ -107,10 +107,13 @@
     left: 0;
   }
   .window-tab {
-    font-size: 8px;
+    font-size: 11px;
+    margin: auto;
     font-weight: 500;
+    word-wrap: break-word;
     max-width: max-content;
-    padding: 0 !important;
+    max-height: max-content;
+    padding: 1px !important;
   }
 
   

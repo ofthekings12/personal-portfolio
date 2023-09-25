@@ -38,22 +38,22 @@ export default function ProjectsWindow({ handleClick }) {
       </WindowHeader>
       <WindowContent className="projects-window-content">
         <Tabs value={activeTab} onChange={handleChange}>
-          <Tab value={0}>
+          <Tab className="window-tab"value={0}>
             <p className="window-tab">Let's Get Girly Pop</p>
           </Tab>
-          <Tab value={1}>
+          <Tab className="window-tab" value={1}>
             <p className="window-tab">Comments Section</p>
           </Tab>
-          <Tab value={2}>
+          <Tab className="window-tab" value={2}>
             <p className="window-tab">Product Card</p>
           </Tab>
-          <Tab value={3}>
+          <Tab className="window-tab" value={3}>
             <p className="window-tab">Up4Grabs</p>
           </Tab>
-          <Tab value={4}>
+          <Tab className="window-tab" value={4}>
             <p className="window-tab">RESOURCR.</p>
           </Tab>
-          <Tab value={5}>
+          <Tab className="window-tab" value={5}>
             <p className="window-tab">Covid Tracker</p>
           </Tab>
         </Tabs>
