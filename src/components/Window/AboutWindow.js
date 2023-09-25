@@ -18,7 +18,6 @@ export default function AboutWindow({ handleClick }) {
   const handleChange = (e, value) => setTab({ activeTab: value });
   const { activeTab } = tab;
   const [loading, setLoading] = useState(false);
-  const isDesktop = window.innerWidth > 600;
 
   useEffect(() => {
     setLoading(true);
@@ -61,7 +60,7 @@ export default function AboutWindow({ handleClick }) {
                     <div className="avatar-title">
                       <img
                         className="avatar"
-                        src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/318124463_10160263876518116_6381159203866659244_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=DlG65trMpZAAX8btTI-&_nc_ht=scontent-ord5-1.xx&oh=00_AfBQxDomATjwbwz73CeQdTuYB1b500mH8FMuZR53SPwK9w&oe=64F21385"
+                        src="https://i.ibb.co/bJT4kT5/mug.jpg"
                         alt="mug"
                       />
                       <h1 className="title">

@@ -94,3 +94,47 @@
 
 }
 
+
+@media only screen and (max-width: 600px) { 
+  .projects-window {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .window-tab {
+    font-size: 11px;
+    font-weight: 500;
+    max-width: max-content;
+    padding: 0 !important;
+  }
+
+  
+  .projects-window-content {
+    height: 82vh;
+  }
+  
+  .fieldset {
+    height: 70vh;
+    width: max-content;
+  }
+  
+  .loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35.5vh;
+    width: 30vh;
+  }
+
+  .girlypop-gif, .comments-section-gif, .product-card-img, .up4grabs-gif, .resourcr-gif,.covid-gif {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}  
+
