@@ -91,7 +91,6 @@ export default function ProjectsWindow({ handleClick }) {
                         enterDelay={100}
                         leaveDelay={500}
                       >
-                        {" "}
                         <Anchor
                           href="https://letsgetgirlypop.netlify.app/"
                           target="_blank"
@@ -123,12 +122,15 @@ export default function ProjectsWindow({ handleClick }) {
                 ) : (
                   <>
                     <p className="redirect">
-                      Click
+                      Click{" "}
                       <a
                         href="https://github.com/ofthekings12/interactive-comments-section"
                         target="_blank"
                         rel="noreferrer"
-                      > HERE </a>to learn more on Github
+                      >
+                        HERE
+                      </a>{" "}
+                      to learn more on Github
                     </p>
                     <Anchor
                       href="https://github.com/ofthekings12/interactive-comments-section"
@@ -164,7 +166,7 @@ export default function ProjectsWindow({ handleClick }) {
                   </div>
                 ) : (
                   <>
-                                      <p className="redirect">
+                    <p className="redirect">
                       Click{" "}
                       <a
                         href="https://github.com/ofthekings12/product-card"
@@ -216,13 +218,16 @@ export default function ProjectsWindow({ handleClick }) {
                   </div>
                 ) : (
                   <>
-                                      <p className="redirect">
-                      Click
+                    <p className="redirect">
+                      Click{" "}
                       <a
                         href="https://github.com/ofthekings12/up4grabs"
                         target="_blank"
                         rel="noreferrer"
-                      > HERE </a>to learn more on Github
+                      >
+                        HERE
+                      </a>{" "}
+                      to learn more on Github
                     </p>
                     <Anchor
                       href="https://github.com/ofthekings12/up4grabs"
@@ -249,14 +254,17 @@ export default function ProjectsWindow({ handleClick }) {
           {activeTab === 4 && (
             <div className="tab">
               <Fieldset className="fieldset">
-              <p className="redirect">
-                      Click
-                      <a
-                        href="https://github.com/ofthekings12/RESOURCR."
-                        target="_blank"
-                        rel="noreferrer"
-                      > HERE </a>to learn more on Github
-                    </p>
+                <p className="redirect">
+                  Click{" "}
+                  <a
+                    href="https://github.com/ofthekings12/RESOURCR."
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    HERE
+                  </a>{" "}
+                  to learn more on Github
+                </p>
                 <Anchor
                   href="https://github.com/ofthekings12/RESOURCR."
                   target="_blank"
@@ -289,13 +297,16 @@ export default function ProjectsWindow({ handleClick }) {
                   </div>
                 ) : (
                   <>
-                                <p className="redirect">
-                      Click
+                    <p className="redirect">
+                      Click{" "}
                       <a
                         href="https://github.com/ofthekings12/covid-tracker"
                         target="_blank"
                         rel="noreferrer"
-                      > HERE </a>to learn more on Github
+                      >
+                        HERE
+                      </a>{" "}
+                      to learn more on Github
                     </p>
                     <Anchor
                       href="https://github.com/ofthekings12/covid-tracker"
