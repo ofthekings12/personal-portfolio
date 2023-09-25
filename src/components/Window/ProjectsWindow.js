@@ -28,10 +28,7 @@ export default function ProjectsWindow({ handleClick }) {
     }, 1500);
   }, []);
 
-
   return (
-    // <Draggable>
-
     <Window className="projects-window">
       <WindowHeader className="projects-window-header">
         <div>MikkosProjects.exe</div>
@@ -74,7 +71,17 @@ export default function ProjectsWindow({ handleClick }) {
                   </div>
                 ) : (
                   <>
-                  <p className="redirect">Click <a href="https://github.com/ofthekings12/girly-pop" target="_blank" rel="noreferrer" >HERE</a> to learn more on Github, click GIF to checkout LIVE demo</p>
+                    <p className="redirect">
+                      Click{" "}
+                      <a
+                        href="https://github.com/ofthekings12/girly-pop"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        HERE
+                      </a>{" "}
+                      to learn more on Github, click GIF to checkout LIVE demo
+                    </p>
                     <Anchor
                       href="https://github.com/ofthekings12/girly-pop"
                       target="_blank"
@@ -115,6 +122,14 @@ export default function ProjectsWindow({ handleClick }) {
                   </div>
                 ) : (
                   <>
+                    <p className="redirect">
+                      Click
+                      <a
+                        href="https://github.com/ofthekings12/interactive-comments-section"
+                        target="_blank"
+                        rel="noreferrer"
+                      > HERE </a>to learn more on Github
+                    </p>
                     <Anchor
                       href="https://github.com/ofthekings12/interactive-comments-section"
                       target="_blank"
@@ -149,6 +164,17 @@ export default function ProjectsWindow({ handleClick }) {
                   </div>
                 ) : (
                   <>
+                                      <p className="redirect">
+                      Click{" "}
+                      <a
+                        href="https://github.com/ofthekings12/product-card"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        HERE
+                      </a>{" "}
+                      to learn more on Github, click GIF to checkout LIVE demo
+                    </p>
                     <Anchor
                       href="https://github.com/ofthekings12/product-card"
                       target="_blank"
@@ -190,6 +216,14 @@ export default function ProjectsWindow({ handleClick }) {
                   </div>
                 ) : (
                   <>
+                                      <p className="redirect">
+                      Click
+                      <a
+                        href="https://github.com/ofthekings12/up4grabs"
+                        target="_blank"
+                        rel="noreferrer"
+                      > HERE </a>to learn more on Github
+                    </p>
                     <Anchor
                       href="https://github.com/ofthekings12/up4grabs"
                       target="_blank"
@@ -215,6 +249,14 @@ export default function ProjectsWindow({ handleClick }) {
           {activeTab === 4 && (
             <div className="tab">
               <Fieldset className="fieldset">
+              <p className="redirect">
+                      Click
+                      <a
+                        href="https://github.com/ofthekings12/RESOURCR."
+                        target="_blank"
+                        rel="noreferrer"
+                      > HERE </a>to learn more on Github
+                    </p>
                 <Anchor
                   href="https://github.com/ofthekings12/RESOURCR."
                   target="_blank"
@@ -247,6 +289,14 @@ export default function ProjectsWindow({ handleClick }) {
                   </div>
                 ) : (
                   <>
+                                <p className="redirect">
+                      Click
+                      <a
+                        href="https://github.com/ofthekings12/covid-tracker"
+                        target="_blank"
+                        rel="noreferrer"
+                      > HERE </a>to learn more on Github
+                    </p>
                     <Anchor
                       href="https://github.com/ofthekings12/covid-tracker"
                       target="_blank"
@@ -271,6 +321,5 @@ export default function ProjectsWindow({ handleClick }) {
         </TabBody>
       </WindowContent>
     </Window>
-    // </Draggable>
   );
 }
