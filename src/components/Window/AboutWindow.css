@@ -97,7 +97,7 @@
 
 @media only screen and (max-width: 430px) { 
 .about-window {
-  height: 100vh;
+  height: 85vh;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -109,11 +109,11 @@
 }
 
 .window-content {
-  height: 82vh;
+  height: 70vh;
 }
 
 .panel {
-  height: 75vh;
+  height: 61vh;
 }
 
 .avatar {
