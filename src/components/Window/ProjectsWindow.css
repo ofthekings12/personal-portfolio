@@ -100,7 +100,7 @@
 
 @media only screen and (max-width: 430px) { 
   .projects-window {
-    height: 80vh;
+    height: 85vh;
     width: 100vw;
     position: fixed;
     top: 0;
@@ -118,11 +118,11 @@
 
   
   .projects-window-content {
-    height: 60vh;
+    height: 65vh;
   }
   
   .fieldset {
-    height: 63vh;
+    height: 60vh;
     width: max-content;
   }
   
