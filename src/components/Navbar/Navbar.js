@@ -19,7 +19,7 @@ export default function Navbar() {
 //top: '94vh'
 
   return (
-    <AppBar className="app-bar" style={{ top: '85vh', bottom: '0vh', zIndex:1 }}>
+    <AppBar className="app-bar" style={{ top: '86vh', bottom: '0vh', zIndex:1 }}>
       <Toolbar style={{ justifyContent: "space-between" }}>
         <div style={{ position: "relative", display: "inline-block" }}>
           <Button
