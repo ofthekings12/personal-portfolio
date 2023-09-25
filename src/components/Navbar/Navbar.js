@@ -10,12 +10,11 @@ export default function Navbar() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentTime(new Date());
-    }, 1000)
+    }, 1000);
     return () => {
       clearInterval(intervalId);
     };
-  }, [])
-
+  }, []);
 
   return (
     <AppBar className="app-bar">
@@ -42,38 +41,46 @@ export default function Navbar() {
               }}
               onClick={() => setOpen(false)}
             >
-              <ListItem  className="email">
-                <img className="email-icon" src="https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png" 
-                alt="email icon"/>
+              <ListItem className="email">
+                <img
+                  className="email-icon"
+                  src="https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png"
+                  alt="email icon"
+                />
                 <a href="mailto:mikko.delosreyes12@gmail.com">
-                <p>E-mail</p>
+                  <p>E-mail</p>
                 </a>
               </ListItem>
-              <Divider/>
+              <Divider />
               <ListItem className="discord">
                 <span role="img" aria-label="discord-contact">
-                  <img className="discord-icon" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-vector-download-0.png" 
-                  alt="discord icon"/>
+                  <img
+                    className="discord-icon"
+                    src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-vector-download-0.png"
+                    target="_blank"
+                    rel="noreferrer"
+                    alt="discord icon"
+                  />
                 </span>
-              <a href="https://discordapp.com/users/904837189223972914">
-                <p>Discord</p>
+                <a
+                  href="https://discordapp.com/users/904837189223972914"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p>Discord</p>
                 </a>
               </ListItem>
             </List>
           )}
         </div>
-        
-        <div style={{ display: 'flex'}}>
-          <Divider orientation='vertical' size='30px' />
-          <div style={{ alignItems: 'center', padding: '7px' }}>
-             {currentTime.toLocaleTimeString()}
+
+        <div style={{ display: "flex" }}>
+          <Divider orientation="vertical" size="30px" />
+          <div style={{ alignItems: "center", padding: "7px" }}>
+            {currentTime.toLocaleTimeString()}
           </div>
-         
         </div>
-        
-        
       </Toolbar>
     </AppBar>
-
   );
 }
