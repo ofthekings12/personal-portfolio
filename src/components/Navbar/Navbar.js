@@ -43,7 +43,8 @@ export default function Navbar() {
             >
               <ListItem  className="email">
                 {/* <span role="img" aria-label="✉️"> */}
-                <img className="email-icon" src="https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png" />
+                <img className="email-icon" src="https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png" 
+                alt="email icon"/>
                 {/* </span> */}
                 <a href="mailto:mikko.delosreyes12@gmail.com">
                 <p>E-mail</p>
@@ -52,7 +53,8 @@ export default function Navbar() {
               <Divider/>
               <ListItem className="discord">
                 <span role="img" aria-label="discord-contact">
-                  <img className="discord-icon" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-vector-download-0.png" />
+                  <img className="discord-icon" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-vector-download-0.png" 
+                  alt="discord icon"/>
                 </span>
               <a href="https://discordapp.com/users/904837189223972914">
                 <p>Discord</p>
