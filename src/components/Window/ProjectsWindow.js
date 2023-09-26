@@ -81,14 +81,14 @@ export default function ProjectsWindow({ handleClick }) {
                       >
                         HERE
                       </a>{" "}
-                      to learn more on Github, click GIF to checkout LIVE demo
+                      to view this repository, click GIF to checkout LIVE demo
                     </p>
                     <Anchor
                       href="https://github.com/ofthekings12/girly-pop"
                       target="_blank"
                     >
                       <Tooltip
-                        text="Click HERE to learn more on Github, click GIF to checkout LIVE demo"
+                        text="Click HERE to view this repository, click GIF to checkout LIVE demo"
                         enterDelay={100}
                         leaveDelay={500}
                       >
@@ -135,14 +135,14 @@ export default function ProjectsWindow({ handleClick }) {
                       >
                         HERE
                       </a>{" "}
-                      to learn more on Github
+                      to view this repository
                     </p>
                     <Anchor
                       href="https://github.com/ofthekings12/interactive-comments-section"
                       target="_blank"
                     >
                       <Tooltip
-                        text="Click HERE to learn more on Github"
+                        text="Click HERE to view this repository"
                         enterDelay={100}
                         leaveDelay={500}
                       >
@@ -154,7 +154,7 @@ export default function ProjectsWindow({ handleClick }) {
                       </Tooltip>
                     </Anchor>
                     <h2>Project Overview:</h2>
-                    <p>This is a solution to the Interactive comments section challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.Users are be able to: View the optimal layout for the app depending on their device's screen size, See hover states for all interactive elements on the page, create, read, update, and delete comments and replies and upvote/downvote comments</p>
+                    <p>This is a solution to the Interactive comments section challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.Users are be able to: View the optimal layout for the app depending on their device's screen size, See hover states for all interactive elements on the page, create, read, update, and delete comments and replies and upvote/downvote comments.</p>
                   </>
                 )}
               </Fieldset>
@@ -182,14 +182,14 @@ export default function ProjectsWindow({ handleClick }) {
                       >
                         HERE
                       </a>{" "}
-                      to learn more on Github, click image to checkout LIVE demo
+                      to view this repository, click image to checkout LIVE demo
                     </p>
                     <Anchor
                       href="https://github.com/ofthekings12/product-card"
                       target="_blank"
                     >
                       <Tooltip
-                        text="Click HERE to learn more on Github, click image to checkout LIVE demo"
+                        text="Click HERE to view this repository, click image to checkout LIVE demo"
                         enterDelay={100}
                         leaveDelay={500}
                       >
@@ -207,7 +207,7 @@ export default function ProjectsWindow({ handleClick }) {
                       </Tooltip>
                     </Anchor>
                     <h2>Project Overview:</h2>
-                    <p>This is a solution to the Product preview card component challenge on Frontend Mentor. Users are be able to: View the optimal layout depending on their device's screen size and see hover and focus states for interactive elements</p>
+                    <p>This is a solution to the Product preview card component challenge on Frontend Mentor. Users are be able to: View the optimal layout depending on their device's screen size and see hover and focus states for interactive elements.</p>
                   </>
                 )}
               </Fieldset>
@@ -236,14 +236,14 @@ export default function ProjectsWindow({ handleClick }) {
                       >
                         HERE
                       </a>{" "}
-                      to learn more on Github
+                      to view this repository
                     </p>
                     <Anchor
                       href="https://github.com/ofthekings12/up4grabs"
                       target="_blank"
                     >
                       <Tooltip
-                        text="Click HERE to learn more on Github"
+                        text="Click HERE to view this repository"
                         enterDelay={100}
                         leaveDelay={500}
                       >
@@ -285,14 +285,14 @@ export default function ProjectsWindow({ handleClick }) {
                   >
                     HERE
                   </a>{" "}
-                  to learn more on Github
+                  to view this repository
                 </p>
                 <Anchor
                   href="https://github.com/ofthekings12/RESOURCR."
                   target="_blank"
                 >
                   <Tooltip
-                    text="Click HERE to learn more on Github"
+                    text="Click HERE to view this repository"
                     enterDelay={100}
                     leaveDelay={500}
                   >
@@ -333,14 +333,14 @@ export default function ProjectsWindow({ handleClick }) {
                       >
                         HERE
                       </a>{" "}
-                      to learn more on Github
+                      to view this repository
                     </p>
                     <Anchor
                       href="https://github.com/ofthekings12/covid-tracker"
                       target="_blank"
                     >
                       <Tooltip
-                        text="Click HERE to learn more on Github"
+                        text="Click HERE to view this repository"
                         enterDelay={100}
                         leaveDelay={500}
                       >
