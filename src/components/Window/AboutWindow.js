@@ -11,7 +11,7 @@ import {
   LoadingIndicator,
 } from "react95";
 import "./AboutWindow.css";
-import Draggable from "react-draggable";
+// import Draggable from "react-draggable";
 
 export default function AboutWindow({ handleClick }) {
   const [tab, setTab] = useState({ activeTab: 0 });
@@ -27,7 +27,7 @@ export default function AboutWindow({ handleClick }) {
   }, []);
 
   return (
-    <Draggable>
+    // <Draggable>
     <Window className="about-window">
       <WindowHeader className="about-window-header">
         <div>AboutMikko.exe</div>
@@ -236,7 +236,7 @@ export default function AboutWindow({ handleClick }) {
         </TabBody>
       </WindowContent>
     </Window>
-    </Draggable>
+    // </Draggable>
 
   );
 }
