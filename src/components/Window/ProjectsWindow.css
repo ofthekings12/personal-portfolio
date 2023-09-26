@@ -147,7 +147,7 @@
   
   .fieldset {
     height: 61vh;
-    width: max-content;
+    width: 100%;
     overflow: scroll;
     
   }
