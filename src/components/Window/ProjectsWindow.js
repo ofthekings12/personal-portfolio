@@ -13,7 +13,7 @@ import {
   LoadingIndicator,
 } from "react95";
 import "./ProjectsWindow.css";
-// import Draggable from "react-draggable";
+import Draggable from "react-draggable";
 
 export default function ProjectsWindow({ handleClick }) {
   const [tab, setTab] = useState({ activeTab: 0 });
@@ -28,8 +28,23 @@ export default function ProjectsWindow({ handleClick }) {
     }, 1500);
   }, []);
 
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 430);
+    };
+      handleResize();
+      window.addEventListener('resize', handleResize);
+      return () => {
+        window.removeEventListener('resize' ,handleResize);
+      }
+  }, []);
+
+
+
   return (
-    // <Draggable>
+    <Draggable disabled={isMobile}>
     <Window className="projects-window">
       <WindowHeader className="projects-window-header">
         <div>MikkosProjects.exe</div>
@@ -106,7 +121,7 @@ export default function ProjectsWindow({ handleClick }) {
                     </Anchor>
                     <h2>Project Overview:</h2>
                     <br/>
-                    <p>The project aims to provide users with a visually immersive experience and an energetic musical journey, evoking a sense of playful nostalgia and embracing the vibrant spirit of unapologetic self-expression. It offers a unique blend of vivid visuals and queer hyperpop music, creating an electric atmosphere reminiscent of moments of reckless abandon. Step into a world where creativity knows no bounds, and the beats pulse with a captivating allure, setting the stage for an unforgettable encounter with the art of "getting girly pop." (Girly Pop or GirlyPop is an internet slang term that refers to a stereotypically feminine female or male who is "a constantly slaying queen that has everyone captivated with every move they make.")</p>
+                    <p>The project aims to provide users with a visually immersive experience and an energetic musical journey, evoking a sense of playful nostalgia and embracing the vibrant spirit of unapologetic self-expression. It offers a unique blend of vivid visuals and queer hyperpop music, creating an electric atmosphere reminiscent of moments of reckless abandon. Step into a world where creativity knows no bounds, and the beats pulse with a captivating allure, setting the stage for an unforgettable encounter with the art of "getting girly pop." ("Girly Pop" is a slang term that refers to a stereotypically feminine female or male who is "a constantly slaying queen that has everyone captivated with every move they make.")</p>
 
                   </>
                 )}
@@ -361,6 +376,6 @@ export default function ProjectsWindow({ handleClick }) {
         </TabBody>
       </WindowContent>
     </Window>
-    // </Draggable>
+    </Draggable>
   );
 }
