@@ -11,7 +11,7 @@ import {
   LoadingIndicator,
 } from "react95";
 import "./AboutWindow.css";
-// import Draggable from "react-draggable";
+import Draggable from "react-draggable";
 
 export default function AboutWindow({ handleClick }) {
   const [tab, setTab] = useState({ activeTab: 0 });
@@ -26,8 +26,21 @@ export default function AboutWindow({ handleClick }) {
     }, 1500);
   }, []);
 
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 430);
+    };
+      handleResize();
+      window.addEventListener('resize', handleResize);
+      return () => {
+        window.removeEventListener('resize' ,handleResize);
+      }
+  }, []);
+
   return (
-    // <Draggable>
+    <Draggable disabled={isMobile}>
     <Window className="about-window">
       <WindowHeader className="about-window-header">
         <div>AboutMikko.exe</div>
@@ -236,7 +249,7 @@ export default function AboutWindow({ handleClick }) {
         </TabBody>
       </WindowContent>
     </Window>
-    // </Draggable>
+    </Draggable>
 
   );
 }
