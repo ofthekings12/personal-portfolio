@@ -66,9 +66,12 @@
 }
 
 .loading {
-  margin-top: 20vh;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 35.5vh;
-  width: 100vh;
+  width: 30vh;
 }
 
 .tech-icons {
