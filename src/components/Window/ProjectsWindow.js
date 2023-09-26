@@ -13,7 +13,7 @@ import {
   LoadingIndicator,
 } from "react95";
 import "./ProjectsWindow.css";
-// import Draggable from "react-draggable";
+import Draggable from "react-draggable";
 
 export default function ProjectsWindow({ handleClick }) {
   const [tab, setTab] = useState({ activeTab: 0 });
@@ -29,6 +29,7 @@ export default function ProjectsWindow({ handleClick }) {
   }, []);
 
   return (
+    <Draggable>
     <Window className="projects-window">
       <WindowHeader className="projects-window-header">
         <div>MikkosProjects.exe</div>
@@ -152,10 +153,10 @@ export default function ProjectsWindow({ handleClick }) {
                         />
                       </Tooltip>
                     </Anchor>
+                    <h2>Project Overview:</h2>
+                    <p>This is a solution to the Interactive comments section challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.Users are be able to: View the optimal layout for the app depending on their device's screen size, See hover states for all interactive elements on the page, create, read, update, and delete comments and replies and upvote/downvote comments</p>
                   </>
                 )}
-                <h2>Project Overview:</h2>
-                <p>This is a solution to the Interactive comments section challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.Users are be able to: View the optimal layout for the app depending on their device's screen size, See hover states for all interactive elements on the page, create, read, update, and delete comments and replies and upvote/downvote comments</p>
               </Fieldset>
             </div>
           )}
@@ -205,10 +206,10 @@ export default function ProjectsWindow({ handleClick }) {
                         </Anchor>
                       </Tooltip>
                     </Anchor>
+                    <h2>Project Overview:</h2>
+                    <p>This is a solution to the Product preview card component challenge on Frontend Mentor. Users are be able to: View the optimal layout depending on their device's screen size and see hover and focus states for interactive elements</p>
                   </>
                 )}
-                <h2>Project Overview:</h2>
-                <p>This is a solution to the Product preview card component challenge on Frontend Mentor. Users are be able to: View the optimal layout depending on their device's screen size and see hover and focus states for interactive elements</p>
               </Fieldset>
             </div>
           )}
@@ -253,12 +254,12 @@ export default function ProjectsWindow({ handleClick }) {
                         />
                       </Tooltip>
                     </Anchor>
-                  </>
-                )}
               <h2>Project Overview:</h2>
               <p>In this bootcamp final group project, my group created Up4Grabs. Up4Grabs seeks to foster a community of like-minded individuals inspired by the idea of repurposing and giving new life to items that would otherwise occupy our landfills. Whether moving between living spaces, purging during spring-cleaning, or maybe you’ve held onto an item to be regifted for a little too long, we’ve all faced moments where we just needed to “let go”.
               Users are able to post an item and select a draw date. Other users on the platform are able to "like" an item which puts their name in a random draw for when the countdown timer the poster's selected date reaches zero. The winner of the draw will be alerted by email notifying them which item they've won and a 2-way chat becomes available to the poster and winner to coordinate pick up.
               </p>
+                  </>
+                )}
               </Fieldset>
             </div>
           )}
@@ -266,6 +267,15 @@ export default function ProjectsWindow({ handleClick }) {
           {activeTab === 4 && (
             <div className="tab">
               <Fieldset className="fieldset">
+              {loading ? (
+                  <div className="loading">
+                    <p style={{ textAlign: "center", marginBottom: "0.5rem" }}>
+                      Loading...
+                    </p>
+                    <LoadingIndicator loading={loading} />
+                  </div>
+                ) : (
+                  <>
                 <p className="redirect">
                   Click{" "}
                   <a
@@ -295,6 +305,8 @@ export default function ProjectsWindow({ handleClick }) {
                 </Anchor>
                 <h2>Project: Overview:</h2>
                 <p>In this bootcamp mid-term group project, my group was challenged to recrate a Pinterest clone. With RESOURCR., users are able to: Save an external URL along with a title and description, search for already-saved resources created by any user, categorize any resource under a topic, comment on any resource, rate any resource, like any resource, view all their own and all liked resources on one page ("My resources"), and update their profile.</p>
+                </>
+                )}
               </Fieldset>
 
             </div>
@@ -339,15 +351,16 @@ export default function ProjectsWindow({ handleClick }) {
                         />
                       </Tooltip>
                     </Anchor>
+                    <h2>Project Overview:</h2>
+                    <p>In this post-bootcamp professional development project, I created a data visualization project by following a detailed YouTube tutorial displaying real-time global Covid-19 data. As one of my first projects on my own post bootcamp, I gained valuable experience working with APIs and data visualization.  </p>
                   </>
                 )}
-                <h2>Project Overview:</h2>
-                <p>In this post-bootcamp professional development project, I created a data visualization project by following a detailed YouTube tutorial displaying real-time global Covid-19 data. As one of my first projects on my own post bootcamp, I gained valuable experience working with APIs and data visualization.  </p>
               </Fieldset>
             </div>
           )}
         </TabBody>
       </WindowContent>
     </Window>
+    </Draggable>
   );
 }
