@@ -63,22 +63,13 @@ body {
   }
 }
 
-@media only screen and (min-width: 1025px) and (max-height: 1365px) {
-  /* Specific adjustment for iPads */
-  .app-bar {
-    position: fixed;
-    z-index: 1;
-    top: 99vh !important; /* Adjust this value as needed */
-    width: 100%;
-  }
-}
-/* @media only screen and (min-height: 1366px) { 
+@media only screen and (min-height: 1366px) { 
   .app-bar {
     z-index: 1;
     top: 99vh !important;
     bottom: 0;
   }
-} */
+}
 
 
 
