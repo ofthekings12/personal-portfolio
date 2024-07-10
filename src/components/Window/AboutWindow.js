@@ -30,7 +30,7 @@ export default function AboutWindow({ handleClick }) {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 430);
     };
       handleResize();
       window.addEventListener('resize', handleResize);
