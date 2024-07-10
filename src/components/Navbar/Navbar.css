@@ -48,14 +48,14 @@ body {
   .app-bar {
     z-index: 1;
     top: 84vh !important;
-    bottom: 0vh;
+    bottom: 0;
   }
 }
 @media only screen and (min-width: 1024px) { 
   .app-bar {
     z-index: 1;
     top: 94.2.4vh !important;
-    bottom: 0vh;
+    bottom: 0;
   }
 }
 
