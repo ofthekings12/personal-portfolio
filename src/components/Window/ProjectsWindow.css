@@ -135,7 +135,7 @@
 
 @media only screen and (max-width: 1024px) { 
   .projects-window {
-    height: 85vh;
+    height: 100vh;
     width: 100vw;
     position: fixed;
     top: 0;
