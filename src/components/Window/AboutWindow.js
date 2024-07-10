@@ -165,10 +165,82 @@ export default function AboutWindow({ handleClick }) {
                   <div className="tech">
                     <img
                       className="tech-icons"
+                      src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/react.png?raw=true"
+                      alt="react icon"
+                    ></img>
+                    <h1 className='techname'>React</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/nextjs.png?raw=true"
+                      alt="nextjs icon"
+                    ></img>
+                    <h1 className='techname'>NextJS</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/Webflow.svg"
+                      alt="webflow icon"
+                    ></img>
+                    <h1 className='techname'>Webflow</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/Ruby-on-Rails.svg"
+                      alt="Ruby icon"
+                    ></img>
+                    <h1 className='techname'>Ruby on Rails</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/PHP.svg"
+                      alt="php icon"
+                    ></img>
+                    <h1 className='techname'>PHP</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/node.png?raw=true"
+                      alt="nodejs icon"
+                    ></img>
+                    <h1 className='techname'>Node JS</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/Express.svg"
+                      alt="express icon"
+                    ></img>
+                    <h1 className='techname'>Express</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/jQuery.svg"
+                      alt="jquery icon"
+                    ></img>
+                    <h1 className='techname'>jQuery</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
                       src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/css.png?raw=true"
                       alt="css icon"
                     ></img>
                     <h1 className='techname'>CSS</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/Bootstrap.svg"
+                      alt="bootstrap icon"
+                    ></img>
+                    <h1 className='techname'>Bootstrap</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -185,14 +257,6 @@ export default function AboutWindow({ handleClick }) {
                       alt="tailwind icon"
                     ></img>
                     <h1 className='techname'>Tailwind CSS</h1>
-                  </div>
-                  <div className="tech">
-                    <img
-                      className="tech-icons"
-                      src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/node.png?raw=true"
-                      alt="nodejs icon"
-                    ></img>
-                    <h1 className='techname'>Node JS</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -221,18 +285,42 @@ export default function AboutWindow({ handleClick }) {
                   <div className="tech">
                     <img
                       className="tech-icons"
-                      src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/react.png?raw=true"
-                      alt="react icon"
+                      src="https://icon.icepanel.io/Technology/svg/Cypress.svg"
+                      alt="cypress icon"
                     ></img>
-                    <h1 className='techname'>React</h1>
+                    <h1 className='techname'>Cypress</h1>
                   </div>
                   <div className="tech">
                     <img
                       className="tech-icons"
-                      src="https://github.com/ofthekings12/portfolio_2.0/blob/main/frontend_react/src/assets/nextjs.png?raw=true"
-                      alt="nextjs icon"
+                      src="https://icon.icepanel.io/Technology/svg/Mocha.svg"
+                      alt="mocha icon"
                     ></img>
-                    <h1 className='techname'>NextJS</h1>
+                    <h1 className='techname'>Mocha</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/Storybook.svg"
+                      alt="storybook icon"
+                    ></img>
+                    <h1 className='techname'>Storybook</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/Jest.svg"
+                      alt="jest icon"
+                    ></img>
+                    <h1 className='techname'>JEST</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/GitHub.svg"
+                      alt="github icon"
+                    ></img>
+                    <h1 className='techname'>Github</h1>
                   </div>
                   <div className="tech">
                     <img
@@ -241,6 +329,30 @@ export default function AboutWindow({ handleClick }) {
                       alt="figma icon"
                     ></img>
                     <h1 className='techname'>Figma</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/Postman.svg"
+                      alt="postman icon"
+                    ></img>
+                    <h1 className='techname'>Postman</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/Sanity.svg"
+                      alt="sanity icon"
+                    ></img>
+                    <h1 className='techname'>Sanity.io</h1>
+                  </div>
+                  <div className="tech">
+                    <img
+                      className="tech-icons"
+                      src="https://icon.icepanel.io/Technology/svg/Jira.svg"
+                      alt="jira icon"
+                    ></img>
+                    <h1 className='techname'>Jira</h1>
                   </div>
                 </div>
               </Panel>
