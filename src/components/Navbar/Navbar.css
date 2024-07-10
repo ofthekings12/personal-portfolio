@@ -7,8 +7,8 @@ body {
 
 .app-bar {
   z-index: 1;
-  top: 95vh !important;
-  height: 50px;
+  top: 94.2vh !important;
+  height: 70px;
   position: sticky;
   /* bottom: 0 !important; */
 }
