@@ -51,10 +51,10 @@ body {
     bottom: 0;
   }
 }
-@media only screen and (min-height: 1366px) { 
+@media only screen and (max-height: 1366px) { 
   .app-bar {
     z-index: 1;
-    top: 95vh !important;
+    top: 97vh !important;
     bottom: 0;
   }
 }
