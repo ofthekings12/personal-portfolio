@@ -68,7 +68,7 @@ body {
   .app-bar {
     position: fixed;
     z-index: 1;
-    top: 80vh !important; /* Adjust this value as needed */
+    top: 99vh !important; /* Adjust this value as needed */
     width: 100%;
   }
 }
