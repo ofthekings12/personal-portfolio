@@ -47,7 +47,7 @@ body {
 @media only screen and (max-width: 1024px) { 
   .app-bar {
     z-index: 1;
-    top: 84vh !important;
+    top: 94.2vh !important;
     bottom: 0vh;
   }
 }
