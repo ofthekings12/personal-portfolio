@@ -32,7 +32,7 @@ export default function ProjectsWindow({ handleClick }) {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 430);
+      setIsMobile(window.innerWidth <= 768);
     };
     handleResize();
     window.addEventListener("resize", handleResize);
