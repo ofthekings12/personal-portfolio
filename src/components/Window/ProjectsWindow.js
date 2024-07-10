@@ -186,7 +186,7 @@ export default function ProjectsWindow({ handleClick }) {
                             target="_blank"
                           >
                             <img
-                              className="irhealth-img"
+                              className="kamika-img"
                               src="https://i.ibb.co/LC5FXTp/kamikaconsults.png"
                               alt="irhealthimg"
                             />
