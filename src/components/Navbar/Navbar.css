@@ -2,12 +2,15 @@
 
 body {
   font-family: VT323, cursive;
+  position: relative;
 }
 
 .app-bar {
   z-index: 1;
-  top: 94vh !important;
-  bottom: 0vh;
+  top: 95vh !important;
+  height: 50px;
+  position: sticky;
+  /* bottom: 0 !important; */
 }
 
 .email {
