@@ -44,7 +44,37 @@ body {
   padding: 5px;
 }
 
-@media only screen and (max-width: 1024px) { 
+@media only screen and (max-width: 1024px) {
+  /* For tablets including iPads */
+  .app-bar {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-height: 1365px) {
+  /* Specific adjustment for iPads */
+  .app-bar {
+    position: fixed;
+    z-index: 1;
+    bottom: 1vh; /* Adjust this value as needed */
+    width: 100%;
+  }
+}
+
+@media only screen and (min-height: 1366px) {
+  /* Adjust for larger iPads or other devices */
+  .app-bar {
+    position: fixed;
+    z-index: 1;
+    bottom: 2vh; /* Adjust this value as needed */
+    width: 100%;
+  }
+}
+
+/* @media only screen and (max-width: 1024px) { 
   .app-bar {
     z-index: 1;
     top: 84vh !important;
@@ -57,7 +87,7 @@ body {
     top: 99vh !important;
     bottom: 0;
   }
-}
+} */
 
 
 
