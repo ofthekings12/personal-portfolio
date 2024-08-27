@@ -187,7 +187,7 @@ export default function ProjectsWindow({ handleClick }) {
                           >
                             <img
                               className="kamika-img"
-                              src="https://i.ibb.co/LC5FXTp/kamikaconsults.png"
+                              src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/images/kamika.png?raw=true"
                               alt="irhealthimg"
                             />
                           </Anchor>
