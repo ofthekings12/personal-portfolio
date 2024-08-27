@@ -188,7 +188,7 @@ export default function ProjectsWindow({ handleClick }) {
                             <img
                               className="kamika-img"
                               src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/images/kamika.png?raw=true"
-                              alt="irhealthimg"
+                              alt="kamikaimg"
                             />
                           </Anchor>
                         </Tooltip>
