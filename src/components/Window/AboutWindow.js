@@ -70,7 +70,7 @@ export default function AboutWindow({ handleClick }) {
                     <div className="avatar-title">
                       <img
                         className="avatar"
-                        src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/318124463_10160263876518116_6381159203866659244_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ZTRrzzf40T8Q7kNvgGlePpN&_nc_ht=scontent-ord5-1.xx&oh=00_AYDHshEOkWsr_N85U2BZ9QAbR6TL8v4YMCXTcRS0GReR7Q&oe=6694A7C5"
+                        src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/318124463_10160263876518116_6381159203866659244_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=tMI47BYoKd0Q7kNvgEWprly&_nc_ht=scontent-ord5-1.xx&oh=00_AYDeZF2Xuo4E5Czb0Vduf7ShQQnSJW22O9Z7PlkNCtS_lg&oe=66D3EFC5"
                         alt="avatar mug"
                       />
                       <h1 className="title">
