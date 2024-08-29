@@ -40,7 +40,7 @@ function App() {
           active={openAboutWindow}
         >
           <img
-            src="https://www.pngkit.com/png/full/867-8677338_pixelated-pixelart-freetouse-doge-pixel-art-paint-icon.png"
+            src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/images/sunglasses.png?raw=true"
             alt="about logo"
             style={{ height: "100px" }}
           />
