@@ -1,0 +1,21 @@
+.tab {
+  display: flex;
+  justify-content: center;
+}
+
+.fieldset {
+  width: 105vh;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 15px; */
+}
+
+.loading {
+  margin-top: 20vh;;
+  height: 35.5vh;
+  width: 100vh;
+
+}
