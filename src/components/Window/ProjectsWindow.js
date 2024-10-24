@@ -13,10 +13,12 @@ import {
   LoadingIndicator,
 } from "react95";
 import "./ProjectsWindow.css";
-import "./Projects/IRHealth"
+import "./Projects/IRHealth";
+import"./Projects/CommentsSection";
 import Draggable from "react-draggable";
 import IRHealth from "./Projects/IRHealth";
 import KamikaConsults from "./Projects/KamikaConsults";
+import CommentsSection from "./Projects/CommentsSection";
 
 export default function ProjectsWindow({ handleClick }) {
   const [tab, setTab] = useState({ activeTab: 0 });
@@ -79,13 +81,14 @@ export default function ProjectsWindow({ handleClick }) {
           </Tabs>
           <TabBody className="tabBody">
             {/* IR Health Services */}
-            {activeTab === 0 && (
-              <IRHealth/>
-            )}
+            {activeTab === 0 && <IRHealth />}
             {/* Kamika Consults */}
-            {activeTab === 1 && (
-              <KamikaConsults/>
+            {activeTab === 1 && <KamikaConsults />}
+            {/* COMMENTS SECTION */}
+            {activeTab === 2 && (
+              <CommentsSection/>
             )}
+
             {/* PRODUCT CARD */}
             {activeTab === 3 && (
               <div className="tab">
