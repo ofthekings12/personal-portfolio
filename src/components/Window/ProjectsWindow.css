@@ -113,14 +113,15 @@
   margin-right: auto;
 }
 
-.fieldset {
+/* .fieldset {
   width: 105vh;
   height: max-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  
+} */
 
 .loading {
   margin-top: 20vh;;
