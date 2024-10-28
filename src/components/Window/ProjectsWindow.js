@@ -17,6 +17,7 @@ import ProductCard from "./Projects/ProductCard";
 import Up4Grabs from "./Projects/Up4Grabs";
 import RESOURCR from "./Projects/RESOURCR";
 import CovidTracker from "./Projects/CovidTracker";
+import TipCalculator from "./Projects/TipCalculator";
 
 export default function ProjectsWindow({ handleClick }) {
   const [tab, setTab] = useState({ activeTab: 0 });
@@ -68,6 +69,9 @@ export default function ProjectsWindow({ handleClick }) {
             <Tab className="window-tab" value={6}>
               <p className="window-tab">Covid Tracker</p>
             </Tab>
+            <Tab className="window-tab" value={7}>
+              <p className="window-tab">Tip Out Calculator</p>
+            </Tab>
           </Tabs>
           <TabBody className="tabBody">
             {/* IR Health Services */}
@@ -83,6 +87,7 @@ export default function ProjectsWindow({ handleClick }) {
             {/* RESOURCR */}
             {activeTab === 5 && <RESOURCR />}
             {activeTab === 6 && <CovidTracker />}
+            {activeTab === 7 && <TipCalculator />}
           </TabBody>
         </WindowContent>
       </Window>
