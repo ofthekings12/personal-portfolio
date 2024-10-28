@@ -5,9 +5,9 @@ import {
   Fieldset,
   LoadingIndicator,
 } from "react95";
-import './TipCalculator.css'
+import './RESTCountries.css'
 
-function TipCalculator() {
+function RESTcountries() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ function TipCalculator() {
           <p className="redirect">
             Click{" "}
             <a
-              href="https://github.com/ofthekings12/tip-out-calculator"
+              href="https://github.com/ofthekings12/rest-countries"
               target="_blank"
               rel="noreferrer"
             >
@@ -44,7 +44,7 @@ function TipCalculator() {
             demo
           </p>
           <Anchor
-            href="https://github.com/ofthekings12/tip-out-calculator"
+            href="https://github.com/ofthekings12/rest-countries"
             target="_blank"
           >
             <Tooltip
@@ -54,11 +54,11 @@ function TipCalculator() {
             >
               {" "}
               <Anchor
-                href="https://kingwest-tip-calculator.netlify.app/"
+                href="https://mikko-restcountries.netlify.app/"
                 target="_blank"
               >
                 <img
-                  className="tip-calculator-img"
+                  className="rest-countries-img"
                   src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/assets/tipout-gif.gif?raw=true"
                   alt="tip calculator demo"
                 />
@@ -67,7 +67,7 @@ function TipCalculator() {
           </Anchor>
           <h2>Project Overview:</h2>
           <p>
-         **Tip Calculator Description***
+         **REST Countries Description***
           </p>
         </>
       )}
@@ -76,4 +76,4 @@ function TipCalculator() {
   )
 }
 
-export default TipCalculator
+export default RESTcountries
