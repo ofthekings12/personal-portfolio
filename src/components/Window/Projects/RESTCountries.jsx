@@ -7,7 +7,7 @@ import {
 } from "react95";
 import './RESTCountries.css'
 
-function RESTcountries() {
+function RESTCountries() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -59,8 +59,8 @@ function RESTcountries() {
               >
                 <img
                   className="rest-countries-img"
-                  src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/assets/tipout-gif.gif?raw=true"
-                  alt="tip calculator demo"
+                  src="https://github.com/ofthekings12/personal-portfolio/blob/main/src/assets/restcountries-img.png?raw=true"
+                  alt="rest countries demo"
                 />
               </Anchor>
             </Tooltip>
@@ -76,4 +76,4 @@ function RESTcountries() {
   )
 }
 
-export default RESTcountries
+export default RESTCountries

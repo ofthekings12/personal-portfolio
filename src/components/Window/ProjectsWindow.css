@@ -113,6 +113,26 @@
   margin-right: auto;
 }
 
+.rest-countries-img {
+  margin: 0;
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tip-calculator-img {
+  margin: 0;
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* .fieldset {
   width: 105vh;
   height: max-content;
