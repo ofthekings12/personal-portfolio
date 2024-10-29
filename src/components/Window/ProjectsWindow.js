@@ -6,7 +6,7 @@ import {
   WindowContent,
   Tabs,
   Tab,
-  TabBody
+  TabBody,
 } from "react95";
 import "./ProjectsWindow.css";
 import Draggable from "react-draggable";
@@ -50,52 +50,54 @@ export default function ProjectsWindow({ handleClick }) {
         <WindowContent className="projects-window-content">
           <Tabs rows={2} value={activeTab} onChange={handleChange}>
             <Tab className="window-tab" value={0}>
-              <p className="window-tab">IR Health</p>
-            </Tab>
-            <Tab className="window-tab" value={1}>
-              <p className="window-tab">Kamika Consults</p>
-            </Tab>
-            <Tab className="window-tab" value={2}>
-              <p className="window-tab">Comments Section</p>
-            </Tab>
-            <Tab className="window-tab" value={3}>
-              <p className="window-tab">Product Card</p>
-            </Tab>
-            <Tab className="window-tab" value={4}>
-              <p className="window-tab">Up4Grabs</p>
-            </Tab>
-            <Tab className="window-tab" value={5}>
-              <p className="window-tab">RESOURCR.</p>
-            </Tab>
-            <Tab className="window-tab" value={6}>
-              <p className="window-tab">Covid Tracker</p>
-            </Tab>
-            <Tab className="window-tab" value={7}>
               <p className="window-tab">Tip Out Calculator</p>
             </Tab>
-            <Tab className="window-tab" value={8}>
+            <Tab className="window-tab" value={1}>
               <p className="window-tab">REST Countries</p>
+              </Tab>
+            <Tab className="window-tab" value={2}>
+              <p className="window-tab">IR Health</p>
             </Tab>
+            <Tab className="window-tab" value={3}>
+              <p className="window-tab">Kamika Consults</p>
+            </Tab>
+            <Tab className="window-tab" value={4}>
+              <p className="window-tab">Comments Section</p>
+            </Tab>
+            <Tab className="window-tab" value={5}>
+              <p className="window-tab">Product Card</p>
+            </Tab>
+            <Tab className="window-tab" value={6}>
+              <p className="window-tab">Up4Grabs</p>
+            </Tab>
+            <Tab className="window-tab" value={7}>
+              <p className="window-tab">RESOURCR.</p>
+            </Tab>
+            <Tab className="window-tab" value={8}>
+              <p className="window-tab">Covid Tracker</p>
+            </Tab>
+
+            
           </Tabs>
           <TabBody className="tabBody">
-            {/* IR Health Services */}
-            {activeTab === 0 && <IRHealth />}
-            {/* Kamika Consults */}
-            {activeTab === 1 && <KamikaConsults />}
-            {/* COMMENTS SECTION */}
-            {activeTab === 2 && <CommentsSection />}
-            {/* PRODUCT CARD */}
-            {activeTab === 3 && <ProductCard />}
-            {/* UP4GRABS */}
-            {activeTab === 4 && <Up4Grabs />}
-            {/* RESOURCR */}
-            {activeTab === 5 && <RESOURCR />}
-            {/* Covid Tracker */}
-            {activeTab === 6 && <CovidTracker />}
             {/* Tip Calculator */}
-            {activeTab === 7 && <TipCalculator />}
+            {activeTab === 0 && <TipCalculator />}
             {/* REST Countries */}
-            {activeTab === 8 && <RESTCountries/>}
+            {activeTab === 1 && <RESTCountries />}
+            {/* IR Health Services */}
+            {activeTab === 2 && <IRHealth />}
+            {/* Kamika Consults */}
+            {activeTab === 3 && <KamikaConsults />}
+            {/* COMMENTS SECTION */}
+            {activeTab === 4 && <CommentsSection />}
+            {/* PRODUCT CARD */}
+            {activeTab === 5 && <ProductCard />}
+            {/* UP4GRABS */}
+            {activeTab === 6 && <Up4Grabs />}
+            {/* RESOURCR */}
+            {activeTab === 7 && <RESOURCR />}
+            {/* Covid Tracker */}
+            {activeTab === 8 && <CovidTracker />}
           </TabBody>
         </WindowContent>
       </Window>
