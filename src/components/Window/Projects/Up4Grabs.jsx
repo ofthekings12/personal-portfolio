@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import {
   Anchor,
   Tooltip,
-  Fieldset,
+  Panel,
   LoadingIndicator,
 } from "react95";
 import './Up4Grabs.css'
@@ -20,7 +20,7 @@ function Up4Grabs() {
 
   return (
     <div className="tab">
-    <Fieldset className="fieldset">
+    <Panel className="panel" variant="well">
       {loading ? (
         <div className="loading">
           <p
@@ -80,7 +80,7 @@ function Up4Grabs() {
           </p>
         </>
       )}
-    </Fieldset>
+    </Panel>
   </div>
   )
 }

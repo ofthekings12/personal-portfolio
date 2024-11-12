@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Anchor, Tooltip, Fieldset, LoadingIndicator } from "react95";
+import { Anchor, Tooltip, Panel, LoadingIndicator } from "react95";
 import "./RESTCountries.css";
 
 function RESTCountries() {
@@ -14,7 +14,7 @@ function RESTCountries() {
 
   return (
     <div className="tab">
-      <Fieldset className="fieldset">
+      <Panel className="panel" variant="well">
         {loading ? (
           <div className="loading">
             <p style={{ textAlign: "center", marginBottom: "0.5rem" }}>
@@ -74,7 +74,7 @@ function RESTCountries() {
             </p>
           </>
         )}
-      </Fieldset>
+      </Panel>
     </div>
   );
 }

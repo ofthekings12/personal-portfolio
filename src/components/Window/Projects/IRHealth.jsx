@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import {
   Anchor,
   Tooltip,
-  Fieldset,
+  Panel,
   LoadingIndicator,
 } from "react95";
 import './IRHealth.css'
@@ -19,7 +19,7 @@ function IRHealth() {
 
   return (
     <div className="tab">
-    <Fieldset className="fieldset">
+    <Panel className="panel" variant="well">
       {loading ? (
         <div className="loading">
           <p
@@ -87,7 +87,7 @@ function IRHealth() {
           </p>
         </>
       )}
-    </Fieldset>
+    </Panel>
   </div>
 )
 

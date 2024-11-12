@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import {
   Anchor,
   Tooltip,
-  Fieldset,
+  Panel,
   LoadingIndicator,
 } from "react95";
 import './CovidTracker.css'
@@ -19,7 +19,7 @@ function CovidTracker() {
   
   return (
     <div className="tab">
-                <Fieldset className="fieldset">
+                <Panel className="panel" variant="well">
                   {loading ? (
                     <div className="loading">
                       <p
@@ -69,7 +69,7 @@ function CovidTracker() {
                       </p>
                     </>
                   )}
-                </Fieldset>
+                </Panel>
               </div>
   )
 }

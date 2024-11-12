@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import {
   Anchor,
   Tooltip,
-  Fieldset,
+  Panel,
   LoadingIndicator,
 } from "react95";
 import './CommentsSection.css'
@@ -19,7 +19,7 @@ function CommentsSection() {
 
   return (
     <div className="tab">
-    <Fieldset className="fieldset">
+    <Panel className="panel" variant="well">
       {loading ? (
         <div className="loading">
           <p
@@ -71,7 +71,7 @@ function CommentsSection() {
           </p>
         </>
       )}
-    </Fieldset>
+    </Panel>
   </div>
   )
 }

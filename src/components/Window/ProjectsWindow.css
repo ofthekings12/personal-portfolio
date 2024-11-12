@@ -4,6 +4,7 @@
   left: 25vh;
   height: max-content;
   width: 115vh;
+  height: 100vh;
   /* z-index: 1; */
 
 }
@@ -35,6 +36,8 @@
   margin: 0;
   padding: 0;
   height: max-content;
+  height: 80vh;
+  /* overflow-y: auto; */
 }
 
 .up4grabs-gif {
@@ -80,8 +83,9 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
+
 .kamika-img {
   margin: 0;
   height: 75%;
@@ -90,7 +94,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 .comments-section-gif {
@@ -133,18 +137,20 @@
   margin-right: auto;
 }
 
-/* .fieldset {
-  width: 105vh;
-  height: max-content;
+.fieldset {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-} */
+  /* overflow-y: auto; */
+  max-height: 70vh;
+
+}
 
 .loading {
-  margin-top: 20vh;;
+  margin-top: 20vh;
   height: 35.5vh;
   width: 100vh;
 
@@ -154,14 +160,16 @@
   font-size: 0px;
 }
 
-@media only screen and (max-width: 1024px) { 
+@media only screen and (max-width: 1024px) {
   .projects-window {
-    height: 85vh;
+    height: 90vh;
     width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
+
   }
+
   .window-tab {
     font-size: 1rem;
     margin: auto;
@@ -171,18 +179,22 @@
     max-height: max-content;
   }
 
-  
+  .tabBody {
+    height: 85vh;
+    /* overflow-y: auto; */
+  }
+
+
   .projects-window-content {
     height: 70vh;
   }
-  
+
   .fieldset {
-    height: 100%;
-    width: 100%;
-    overflow: scroll;
-    
+    max-height: 100%;
+    /* overflow-y: auto; */
+
   }
-  
+
   .loading {
     display: flex;
     flex-direction: column;
@@ -192,7 +204,7 @@
     width: 100%;
   }
 
-  .irhealth-img, .kamika-img, .comments-section-gif, .product-card-img, .up4grabs-gif, .resourcr-gif,.covid-gif, .tip-calculator-img, .rest-countries-img {
+  .irhealth-img, .kamika-img, .comments-section-gif, .product-card-img, .up4grabs-gif, .resourcr-gif, .covid-gif, .tip-calculator-img, .rest-countries-img {
     margin-top: 0;
     padding-top: 0px;
     width: 100%;
@@ -203,13 +215,14 @@
 
   .redirect {
     margin-top: 30px;
-    background-color: #fefbcc;    ;
+    background-color: #fefbcc;
+    ;
     border-style: dotted;
     margin-bottom: 1rem;
     font-size: 1rem;
-    text-align: center;;
+    text-align: center;
+    ;
   }
 
-  
-}  
 
+}
